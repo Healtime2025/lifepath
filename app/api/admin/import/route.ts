@@ -48,8 +48,101 @@ ${relevance}
 ON CONFLICT(career_id,qualification_id)
 DO UPDATE SET relevance=EXCLUDED.relevance`;
 }
-else if(type==='programmes'){const institutionSlug=cleanText(r.institution_slug,160),name=cleanText(r.name,260);if(!institutionSlug||!name)throw new Error('institution_slug and name required');const inst=await sql`SELECT id FROM institutions WHERE slug=${institutionSlug} LIMIT 1`;if(!inst.length)throw new Error('institution not found');const year=Number.isFinite(Number(r.academic_year))?Number(r.academic_year):new Date().getFullYear(),faculty=cleanText(r.faculty,180)||null,campus=cleanText(r.campus,160)||null,apply=cleanUrl(r.application_url)||null,purl=cleanUrl(r.programme_url)||null,surl=cleanUrl(r.source_url)||sourceUrl,requirements=typeof r.requirements==='object'&&r.requirements?r.requirements:{};await sql`INSERT INTO programmes(institution_id,name,faculty,campus,application_url,programme_url,requirements,academic_year,verified_at,source_url) VALUES(${inst[0].id},${name},${faculty},${campus},${apply},${purl},${JSON.stringify(requirements)}::jsonb,${year},now(),${surl}) ON CONFLICT(institution_id,name,academic_year) DO UPDATE SET faculty=EXCLUDED.faculty,campus=EXCLUDED.campus,application_url=EXCLUDED.application_url,programme_url=EXCLUDED.programme_url,requirements=EXCLUDED.requirements,verified_at=now(),source_url=EXCLUDED.source_url,active=true`;}
+else if(type==='programmes'){
+const institutionSlug=cleanText(r.institution_slug,160),
+name=cleanText(r.name,260);
+
+if(!institutionSlug||!name)
+throw new Error('institution_slug and name required');
+
+const inst=await sql`
+SELECT id
+FROM institutions
+WHERE slug=${institutionSlug}
+AND active=true
+LIMIT 1`;
+
+if(!inst.length)
+throw new Error('institution not found');
+
+let qualificationId:string|null=null;
+
+const qualificationTitle=cleanText(r.qualification_title,260);
+const qualificationType=cleanText(r.qualification_type,100);
+const saqaId=cleanText(r.saqa_id,80)||'';
+
+if(qualificationTitle||qualificationType||saqaId){
+if(!qualificationTitle||!qualificationType)
+throw new Error('qualification_title and qualification_type required when linking a qualification');
+
+const qualification=await sql`
+SELECT id
+FROM qualifications
+WHERE title=${qualificationTitle}
+AND qualification_type=${qualificationType}
+AND saqa_id=${saqaId}
+AND active=true
+LIMIT 1`;
+
+if(!qualification.length)
+throw new Error('qualification not found');
+
+qualificationId=String(qualification[0].id);
+}
+
+const year=Number.isFinite(Number(r.academic_year))
+?Number(r.academic_year)
+:new Date().getFullYear();
+
+const faculty=cleanText(r.faculty,180)||null,
+campus=cleanText(r.campus,160)||null,
+apply=cleanUrl(r.application_url)||null,
+purl=cleanUrl(r.programme_url)||null,
+surl=cleanUrl(r.source_url)||sourceUrl,
+requirements=typeof r.requirements==='object'&&r.requirements
+?r.requirements:{};
+
+await sql`
+INSERT INTO programmes(
+institution_id,
+qualification_id,
+name,
+faculty,
+campus,
+application_url,
+programme_url,
+requirements,
+academic_year,
+verified_at,
+source_url
+)
+VALUES(
+${inst[0].id},
+${qualificationId},
+${name},
+${faculty},
+${campus},
+${apply},
+${purl},
+${JSON.stringify(requirements)}::jsonb,
+${year},
+now(),
+${surl}
+)
+ON CONFLICT(institution_id,name,academic_year)
+DO UPDATE SET
+qualification_id=EXCLUDED.qualification_id,
+faculty=EXCLUDED.faculty,
+campus=EXCLUDED.campus,
+application_url=EXCLUDED.application_url,
+programme_url=EXCLUDED.programme_url,
+requirements=EXCLUDED.requirements,
+verified_at=now(),
+source_url=EXCLUDED.source_url,
+active=true`;
+}
 else if(type==='funding'){const name=cleanText(r.name,240),provider=cleanText(r.provider,220),ft=cleanText(r.funding_type||r.type,80);if(!name||!provider||!ft)throw new Error('name, provider and funding_type required');const summary=cleanText(r.summary,1200)||'Funding opportunity',paths=Array.isArray(r.eligible_pathways)?r.eligible_pathways.slice(0,20).map((x:any)=>cleanText(x,60)).filter(Boolean):[],fields=Array.isArray(r.eligible_fields)?r.eligible_fields.slice(0,30).map((x:any)=>cleanText(x,100)).filter(Boolean):[],eligibility=typeof r.eligibility==='object'&&r.eligibility?r.eligibility:{},apply=cleanUrl(r.application_url)||null,info=cleanUrl(r.info_url)||sourceUrl,opens=cleanText(r.opens_on,20)||null,closes=cleanText(r.closes_on,20)||null;await sql`INSERT INTO funding_opportunities(name,provider,funding_type,summary,eligible_pathways,eligible_fields,eligibility,application_url,info_url,opens_on,closes_on,recurring,verified,verification_source_url,verified_at) VALUES(${name},${provider},${ft},${summary},${paths},${fields},${JSON.stringify(eligibility)}::jsonb,${apply},${info},${opens},${closes},${!!r.recurring},${r.verified!==false},${sourceUrl||info},now()) ON CONFLICT(name,provider) DO UPDATE SET funding_type=EXCLUDED.funding_type,summary=EXCLUDED.summary,eligible_pathways=EXCLUDED.eligible_pathways,eligible_fields=EXCLUDED.eligible_fields,eligibility=EXCLUDED.eligibility,application_url=EXCLUDED.application_url,info_url=EXCLUDED.info_url,opens_on=EXCLUDED.opens_on,closes_on=EXCLUDED.closes_on,recurring=EXCLUDED.recurring,verified=EXCLUDED.verified,verification_source_url=EXCLUDED.verification_source_url,verified_at=now(),active=true`;}
 upserted++;}catch(e:any){errors.push({index:idx,error:String(e.message||e).slice(0,300)});}}
 await sql`INSERT INTO data_imports(actor_user_id,import_type,source_name,source_url,records_total,records_upserted,errors) VALUES(${u.id},${type},${sourceName},${sourceUrl},${records.length},${upserted},${JSON.stringify(errors.slice(0,100))}::jsonb)`;await sql`INSERT INTO audit_events(actor_user_id,action,entity_type,detail) VALUES(${u.id},'data_import',${type},${JSON.stringify({sourceName,sourceUrl,total:records.length,upserted,errors:errors.length})}::jsonb)`;return ok({total:records.length,upserted,errors});}catch(e:any){return bad(e.message==='FORBIDDEN'?'Admin access required.':e.message==='UNAUTHENTICATED'?'Sign in required.':'Import failed.',e.message==='FORBIDDEN'?403:e.message==='UNAUTHENTICATED'?401:500)}}
+
 
