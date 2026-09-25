@@ -27,6 +27,97 @@ function learnerMark(
   return null;
 }
 
+function requirementLabel(key:string,requirement:any){
+  if(requirement?.subject){
+    const subject=String(requirement.subject);
+
+    if(
+      key==='english' &&
+      subject.toLowerCase().includes('english')
+    ){
+      return 'English';
+    }
+
+    return subject;
+  }
+
+  return key
+    .split('_')
+    .map(word=>word.charAt(0).toUpperCase()+word.slice(1))
+    .join(' ');
+}
+
+function requirementMarkNames(
+  key:string,
+  requirement:any
+){
+  const names:string[]=[];
+
+  if(requirement?.subject){
+    names.push(String(requirement.subject));
+  }
+
+  const aliases:Record<string,string[]>={
+    english:[
+      'English',
+      'English Home Language',
+      'English First Additional Language'
+    ],
+    mathematics:[
+      'Mathematics'
+    ],
+    physical_sciences:[
+      'Physical Sciences',
+      'Physical Science'
+    ],
+    life_sciences:[
+      'Life Sciences',
+      'Life Science'
+    ]
+  };
+
+  names.push(...(aliases[key]||[]));
+
+  if(!names.length){
+    names.push(
+      key
+        .split('_')
+        .map(word=>word.charAt(0).toUpperCase()+word.slice(1))
+        .join(' ')
+    );
+  }
+
+  return [...new Set(names)];
+}
+
+function programmeSubjectRequirements(req:any){
+  if(!req || typeof req!=='object') return [];
+
+  const metadataKeys=new Set([
+    'aps',
+    'note',
+    'curriculum'
+  ]);
+
+  return Object.entries(req)
+    .filter(([key,value])=>{
+      if(metadataKeys.has(key)) return false;
+      if(!value || typeof value!=='object') return false;
+
+      const requirement=value as any;
+
+      return (
+        requirement.achievement_level!=null ||
+        requirement.minimum_percent!=null ||
+        requirement.subject
+      );
+    })
+    .map(([key,requirement])=>({
+      key,
+      requirement
+    }));
+}
+
 function achievementPercent(level:any){
   const n=Number(level);
 
@@ -261,24 +352,6 @@ export default async function Page({
         `
       : [];
 
-  const mathMark=learnerMark(
-    marks,
-    ['Mathematics']
-  );
-
-  const scienceMark=learnerMark(
-    marks,
-    ['Physical Sciences','Physical Science']
-  );
-
-  const englishMark=learnerMark(
-    marks,
-    [
-      'English',
-      'English Home Language',
-      'English First Additional Language'
-    ]
-  );
 
   return (
     <div className="container section">
@@ -518,23 +591,25 @@ export default async function Page({
 
                       <div className="timeline">
 
-                        <RequirementRow
-                          label="English"
-                          requirement={req.english}
-                          mark={englishMark}
-                        />
-
-                        <RequirementRow
-                          label="Mathematics"
-                          requirement={req.mathematics}
-                          mark={mathMark}
-                        />
-
-                        <RequirementRow
-                          label="Physical Sciences"
-                          requirement={req.physical_sciences}
-                          mark={scienceMark}
-                        />
+                        {programmeSubjectRequirements(req).map(
+                          ({key,requirement}:any)=>(
+                            <RequirementRow
+                              key={key}
+                              label={requirementLabel(
+                                key,
+                                requirement
+                              )}
+                              requirement={requirement}
+                              mark={learnerMark(
+                                marks,
+                                requirementMarkNames(
+                                  key,
+                                  requirement
+                                )
+                              )}
+                            />
+                          )
+                        )}
 
                       </div>
                     </div>
@@ -667,4 +742,5 @@ export default async function Page({
     </div>
   );
 }
+
 
