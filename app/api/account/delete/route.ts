@@ -1,0 +1,2 @@
+import { requireUser, deleteSession } from '@/lib/auth';import { db } from '@/lib/db';import { bad,ok } from '@/lib/http';
+export async function DELETE(){try{const u=await requireUser();const sql=db();await sql`DELETE FROM users WHERE id=${u.id}`;await deleteSession();return ok({ok:true});}catch(e:any){return bad(e.message==='UNAUTHENTICATED'?'Sign in required.':'Could not delete account.',e.message==='UNAUTHENTICATED'?401:500)}}

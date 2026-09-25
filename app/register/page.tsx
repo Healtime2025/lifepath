@@ -1,0 +1,3 @@
+import Link from 'next/link'; import { AuthForm } from '@/components/AuthForm';
+export const metadata={title:'Start my LifePath'};
+export default function Page(){return <div className="authwrap"><div className="authcard"><div className="eyebrow">Your journey starts here</div><h1 style={{fontSize:34,margin:'8px 0 10px'}}>Create your LifePath</h1><p className="muted">One profile for discovery, careers, verified training, funding and applications.</p><AuthForm mode="register"/><p className="muted" style={{fontSize:14,marginTop:18}}>Already registered? <Link href="/login" style={{color:'var(--brand)',fontWeight:800}}>Sign in</Link></p></div></div>}

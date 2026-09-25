@@ -1,0 +1,3 @@
+import Link from 'next/link'; import { AuthForm } from '@/components/AuthForm';
+export const metadata={title:'Sign in'};
+export default function Page(){return <div className="authwrap"><div className="authcard"><div className="eyebrow">Welcome back</div><h1 style={{fontSize:34,margin:'8px 0 10px'}}>Continue your LifePath</h1><p className="muted">Your progress, saved careers and applications stay together.</p><AuthForm mode="login"/><p style={{fontSize:13,marginTop:12}}><Link href="/forgot-password" style={{color:'var(--brand)',fontWeight:700}}>Forgot password?</Link></p><p className="muted" style={{fontSize:14,marginTop:18}}>New here? <Link href="/register" style={{color:'var(--brand)',fontWeight:800}}>Start your LifePath</Link></p></div></div>}

@@ -1,0 +1,2 @@
+import { db } from '@/lib/db';import { NextResponse } from 'next/server';
+export async function GET(){try{const sql=db();const rows=await sql`SELECT now() AS now,(SELECT count(*) FROM careers) AS careers,(SELECT count(*) FROM institutions) AS institutions`;return NextResponse.json({ok:true,service:'lifepath',database:'connected',...rows[0]})}catch{return NextResponse.json({ok:false,service:'lifepath',database:'unavailable'},{status:503})}}

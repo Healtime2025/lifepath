@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <div className="container section"><div className="card empty"><h1>We could not find that path.</h1><p>Try exploring careers, institutions or return to your dashboard.</p><div style={{display:'flex',gap:8,justifyContent:'center',flexWrap:'wrap'}}><Link className="btn btn-primary" href="/careers">Explore careers</Link><Link className="btn btn-ghost" href="/dashboard">My LifePath</Link></div></div></div>}
