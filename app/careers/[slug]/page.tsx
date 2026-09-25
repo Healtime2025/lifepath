@@ -58,11 +58,14 @@ function RequirementRow({
   const minimum=achievementPercent(level);
 
   let status:string|null=null;
+  let gap:number|null=null;
 
   if(mark!=null && minimum!=null){
+    gap=Math.max(0,minimum-mark);
+
     status=mark>=minimum
       ? 'Your current mark meets this published minimum'
-      : 'Your current mark is below this published minimum';
+      : `Gap: ${Math.round(gap)} percentage points to the published minimum`;
   }
 
   return (
@@ -93,11 +96,49 @@ function RequirementRow({
           <div
             style={{
               fontSize:12,
-              marginTop:4,
+              marginTop:6,
               fontWeight:700
             }}
           >
-            {status}
+            {mark!=null && minimum!=null && (
+              <div
+                style={{
+                  display:'flex',
+                  gap:12,
+                  flexWrap:'wrap',
+                  marginBottom:5
+                }}
+              >
+                <span>
+                  Current: {Math.round(mark)}%
+                </span>
+
+                <span>
+                  Published minimum: {minimum}%
+                </span>
+              </div>
+            )}
+
+            <div>
+              {mark!=null &&
+               minimum!=null &&
+               mark>=minimum
+                ? '✓ '
+                : ''}
+              {status}
+            </div>
+
+            {gap!=null && gap>0 && (
+              <div style={{marginTop:8}}>
+                <Link
+                  href="/subject-planner"
+                  className="btn btn-soft"
+                  style={{fontSize:12}}
+                >
+                  Work on this in Subject Planner →
+                </Link>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -626,3 +667,4 @@ export default async function Page({
     </div>
   );
 }
+
