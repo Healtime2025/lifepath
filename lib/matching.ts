@@ -1,32 +1,9 @@
+import { subjectAliases } from './subjects';
 export type Scores = Record<string, number>;
-export function careerMatch(traits: Scores, learner: Scores) {
-  const keys = ['build','analyze','create','help','lead','organize'];
-  const distance = keys.reduce((sum,k)=>sum + Math.abs(Number(traits[k]||0)-Number(learner[k]||0)),0) / keys.length;
-  return Math.max(0, Math.round(100-distance));
-}
-function findMark(subject:string, marks:Record<string,number>){
-  if(marks[subject]!=null) return marks[subject];
-  if(subject==='English'){
-    const k=Object.keys(marks).find(x=>x.toLowerCase().includes('english'));
-    return k?marks[k]:undefined;
-  }
-  return undefined;
-}
-export function academicSignal(subjectGuidance: Record<string,string>, marks: Record<string,number>) {
-  const entries=Object.entries(subjectGuidance||{});
-  const values:number[]=[];
-  for(const [subject,importanceRaw] of entries){
-    const mark=findMark(subject,marks); if(mark==null) continue;
-    const importance=String(importanceRaw).toLowerCase();
-    const target=importance==='important'||importance==='often required'?70:importance==='recommended'?60:50;
-    const signal=Math.max(0,Math.min(100,50+(mark-target)*2));
-    values.push(signal);
-  }
-  return values.length?Math.round(values.reduce((a,b)=>a+b,0)/values.length):null;
-}
-export function subjectGap(subjectGuidance: Record<string,string>, marks: Record<string,number>) {
-  return Object.entries(subjectGuidance||{}).map(([subject,importance])=>({subject,importance,mark:findMark(subject,marks) ?? null}));
-}
-export function pathwayLabel(p:string) {
-  return ({university:'University',university_of_technology:'University of Technology',tvet:'TVET',occupational:'Occupational qualification',apprenticeship:'Apprenticeship',learnership:'Learnership',self_employment:'Entrepreneurship / self-employment'} as Record<string,string>)[p] || p.replaceAll('_',' ');
-}
+export function careerMatch(traits: Scores, learner: Scores) {const keys=['build','analyze','create','help','lead','organize'];const distance=keys.reduce((sum,k)=>sum+Math.abs(Number(traits[k]||0)-Number(learner[k]||0)),0)/keys.length;return Math.max(0,Math.round(100-distance));}
+function findMark(subject:string,marks:Record<string,number>){if(marks[subject]!=null)return marks[subject];const aliases=subjectAliases[subject]||[];for(const a of aliases)if(marks[a]!=null)return marks[a];if(subject==='English'){const k=Object.keys(marks).find(x=>x.toLowerCase().includes('english'));return k?marks[k]:undefined}return undefined}
+export function academicSignal(subjectGuidance:Record<string,string>,marks:Record<string,number>){const values:number[]=[];for(const[subject,importanceRaw]of Object.entries(subjectGuidance||{})){const mark=findMark(subject,marks);if(mark==null)continue;const importance=String(importanceRaw).toLowerCase();const target=importance==='important'||importance==='often required'?70:importance==='recommended'?60:50;values.push(Math.max(0,Math.min(100,50+(mark-target)*2)))}return values.length?Math.round(values.reduce((a,b)=>a+b,0)/values.length):null}
+export function subjectGap(subjectGuidance:Record<string,string>,marks:Record<string,number>){return Object.entries(subjectGuidance||{}).map(([subject,importance])=>({subject,importance,mark:findMark(subject,marks)??null}))}
+export function pathwayLabel(p:string){return({university:'University',university_of_technology:'University of Technology',tvet:'TVET',occupational:'Occupational qualification',apprenticeship:'Apprenticeship',learnership:'Learnership',self_employment:'Entrepreneurship / self-employment'}as Record<string,string>)[p]||p.replaceAll('_',' ')}
+export function matchLabel(n:number){return n>=86?'Strong alignment':n>=76?'Good alignment':n>=66?'Worth exploring':'Explore if curious'}
+export function matchReasons(c:any,marks:Record<string,number>){const reasons:string[]=[];const traits=c.traits||{};const labels:Record<string,string>={build:'hands-on / practical work',analyze:'analysis and problem-solving',create:'creative and design work',help:'helping and working with people',lead:'initiative and leadership',organize:'planning and organised work'};const top=Object.entries(traits).sort((a:any,b:any)=>Number(b[1])-Number(a[1])).slice(0,2).map(([k])=>labels[k]).filter(Boolean);if(top.length)reasons.push(`This career often uses ${top.join(' and ')}.`);const relevant=Object.keys(c.subject_guidance||{}).filter(s=>findMark(s,marks)!=null);if(relevant.length)reasons.push(`Your current subjects give a useful signal here: ${relevant.slice(0,3).join(', ')}.`);else reasons.push('Your interests create the signal here; check the exact subject requirements before choosing a route.');return reasons}
