@@ -116,7 +116,7 @@ export async function topCareerMatches(
         match,
         profileMatch,
         subjectSignal,
-        reasons: matchReasons(career, marks)
+        reasons: matchReasons(career, marks, assessment.scores)
       };
     })
     .sort((a: any, b: any) => {
@@ -139,3 +139,4 @@ export async function topCareerMatches(
     ? matches.slice(0, limit)
     : matches;
 }
+

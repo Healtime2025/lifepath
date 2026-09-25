@@ -107,5 +107,104 @@ export function academicSignal(subjectGuidance:Record<string,string>,marks:Recor
 export function subjectGap(subjectGuidance:Record<string,string>,marks:Record<string,number>){return Object.entries(subjectGuidance||{}).map(([subject,importance])=>({subject,importance,mark:findMark(subject,marks)??null}))}
 export function pathwayLabel(p:string){return({university:'University',university_of_technology:'University of Technology',tvet:'TVET',occupational:'Occupational qualification',apprenticeship:'Apprenticeship',learnership:'Learnership',self_employment:'Entrepreneurship / self-employment'}as Record<string,string>)[p]||p.replaceAll('_',' ')}
 export function matchLabel(n:number){return n>=86?'Strong alignment':n>=76?'Good alignment':n>=66?'Worth exploring':'Explore if curious'}
-export function matchReasons(c:any,marks:Record<string,number>){const reasons:string[]=[];const traits=c.traits||{};const labels:Record<string,string>={build:'hands-on / practical work',analyze:'analysis and problem-solving',create:'creative and design work',help:'helping and working with people',lead:'initiative and leadership',organize:'planning and organised work'};const top=Object.entries(traits).sort((a:any,b:any)=>Number(b[1])-Number(a[1])).slice(0,2).map(([k])=>labels[k]).filter(Boolean);if(top.length)reasons.push(`This career often uses ${top.join(' and ')}.`);const relevant=Object.keys(c.subject_guidance||{}).filter(s=>findMark(s,marks)!=null);if(relevant.length)reasons.push(`Your current subjects give a useful signal here: ${relevant.slice(0,3).join(', ')}.`);else reasons.push('Your interests create the signal here; check the exact subject requirements before choosing a route.');return reasons}
+export function matchReasons(
+  c: any,
+  marks: Record<string, number>,
+  learner: Scores = {}
+) {
+  const reasons: string[] = [];
+  const traits = c.traits || {};
+
+  const learnerLabels: Record<string, string> = {
+    build: 'Build & Fix',
+    analyze: 'Analyse & Solve',
+    create: 'Create & Design',
+    help: 'Help & Connect',
+    lead: 'Lead & Influence',
+    organize: 'Organise & Deliver'
+  };
+
+  const careerLabels: Record<string, string> = {
+    build: 'hands-on and practical work',
+    analyze: 'analysis and problem-solving',
+    create: 'creative and design thinking',
+    help: 'helping and working with people',
+    lead: 'initiative and leadership',
+    organize: 'planning and organised work'
+  };
+
+  /*
+   * Find this learner's strongest areas.
+   */
+  const strongestLearnerAreas = Object.keys(learnerLabels)
+    .sort(
+      (a, b) =>
+        Number(learner[b] || 0) -
+        Number(learner[a] || 0)
+    )
+    .slice(0, 3);
+
+  /*
+   * Only describe learner strengths that this career
+   * actually uses meaningfully.
+   */
+  const sharedStrengths = strongestLearnerAreas
+    .filter(
+      (key) =>
+        Number(traits[key] || 0) >= 60
+    )
+    .slice(0, 2);
+
+  if (sharedStrengths.length) {
+    reasons.push(
+      `Your stronger areas include ${sharedStrengths
+        .map((key) => learnerLabels[key])
+        .join(' and ')}.`
+    );
+  }
+
+  /*
+   * Explain what the career itself emphasises.
+   */
+  const careerStrengths = Object.keys(careerLabels)
+    .sort(
+      (a, b) =>
+        Number(traits[b] || 0) -
+        Number(traits[a] || 0)
+    )
+    .slice(0, 2);
+
+  if (careerStrengths.length) {
+    reasons.push(
+      `This career strongly uses ${careerStrengths
+        .map((key) => careerLabels[key])
+        .join(' and ')}.`
+    );
+  }
+
+  /*
+   * Subjects remain a supporting signal only.
+   */
+  const relevantSubjects = Object.keys(
+    c.subject_guidance || {}
+  ).filter(
+    (subject) => findMark(subject, marks) != null
+  );
+
+  if (relevantSubjects.length) {
+    reasons.push(
+      `Your ${relevantSubjects
+        .slice(0, 3)
+        .join(' and ')} ${
+        relevantSubjects.length === 1 ? 'subject also supports' : 'subjects also support'
+      } exploring this route.`
+    );
+  } else {
+    reasons.push(
+      'Check the exact subject and programme requirements before choosing a route.'
+    );
+  }
+
+  return reasons;
+}
 
