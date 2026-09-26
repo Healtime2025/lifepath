@@ -1,0 +1,427 @@
+{
+  "pack_id": "LP33-P05",
+  "lane": "occupational",
+  "status": "research_pending",
+  "policy": {
+    "official_sources_only": true,
+    "no_fabricated_saqa_ids": true,
+    "no_fabricated_programmes": true,
+    "no_fabricated_requirements": true,
+    "lifecycle_must_be_checked": true,
+    "provider_and_programme_verified_separately": true,
+    "multiple_valid_routes_allowed": true,
+    "pending_is_allowed": true
+  },
+  "career_count": 15,
+  "careers": [
+    {
+      "career_slug": "agricultural-technician",
+      "career_title": "Agricultural Technician",
+      "category": "Agriculture",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "baker",
+      "career_title": "Baker",
+      "category": "Hospitality",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "banking-service-consultant",
+      "career_title": "Banking Service Consultant",
+      "category": "Business & Finance",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "learnership",
+        "occupational",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "beauty-therapist",
+      "career_title": "Beauty Therapist",
+      "category": "Personal Services",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "bookkeeper",
+      "career_title": "Bookkeeper",
+      "category": "Business & Finance",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "care-worker",
+      "career_title": "Care Worker",
+      "category": "Health & Community",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "chef",
+      "career_title": "Chef",
+      "category": "Hospitality",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "community-health-worker",
+      "career_title": "Community Health Worker",
+      "category": "Health & Community",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "construction-supervisor",
+      "career_title": "Construction Supervisor",
+      "category": "Construction",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "call-centre-agent",
+      "career_title": "Contact Centre Agent",
+      "category": "Customer Service",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "cybersecurity-specialist",
+      "career_title": "Cybersecurity Specialist",
+      "category": "Technology",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "dental-assistant",
+      "career_title": "Dental Assistant",
+      "category": "Health",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "tvet",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "digital-marketer",
+      "career_title": "Digital Marketer",
+      "category": "Creative & Business",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "ecd-practitioner",
+      "career_title": "Early Childhood Development Practitioner",
+      "category": "Education",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "farmer",
+      "career_title": "Farmer / Farm Manager",
+      "category": "Agriculture",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    }
+  ]
+}

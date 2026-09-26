@@ -1,0 +1,405 @@
+{
+  "pack_id": "LP33-P03",
+  "lane": "trade_apprenticeship",
+  "status": "research_pending",
+  "policy": {
+    "official_sources_only": true,
+    "no_fabricated_saqa_ids": true,
+    "no_fabricated_programmes": true,
+    "no_fabricated_requirements": true,
+    "lifecycle_must_be_checked": true,
+    "provider_and_programme_verified_separately": true,
+    "multiple_valid_routes_allowed": true,
+    "pending_is_allowed": true
+  },
+  "career_count": 14,
+  "careers": [
+    {
+      "career_slug": "boilermaker",
+      "career_title": "Boilermaker",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "bricklayer",
+      "career_title": "Bricklayer",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "cnc-machinist",
+      "career_title": "CNC Machinist",
+      "category": "Manufacturing",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "carpenter",
+      "career_title": "Carpenter",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "diesel-mechanic",
+      "career_title": "Diesel Mechanic",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "electrician",
+      "career_title": "Electrician",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "fitter-turner",
+      "career_title": "Fitter and Turner",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "instrumentation-technician",
+      "career_title": "Instrumentation Technician",
+      "category": "Engineering & Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "millwright",
+      "career_title": "Millwright",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "motor-mechanic",
+      "career_title": "Motor Mechanic",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "plumber",
+      "career_title": "Plumber",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "refrigeration-technician",
+      "career_title": "Refrigeration & Air-Conditioning Technician",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "welder",
+      "career_title": "Welder",
+      "category": "Trades",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "wind-turbine-technician",
+      "career_title": "Wind Turbine Technician",
+      "category": "Green Economy",
+      "primary_lane": "trade_apprenticeship",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "stage": "LP-3.3",
+  "purpose": "Bulk official-source career pathway verification",
+  "unresolved_careers": 82,
+  "pack_count": 7,
+  "packs": [
+    {
+      "pack_id": "LP33-P01",
+      "lane": "higher_education",
+      "filename": "lp33-p01-higher_education.json",
+      "careers": 15,
+      "status": "research_pending"
+    },
+    {
+      "pack_id": "LP33-P02",
+      "lane": "higher_education",
+      "filename": "lp33-p02-higher_education.json",
+      "careers": 4,
+      "status": "research_pending"
+    },
+    {
+      "pack_id": "LP33-P03",
+      "lane": "trade_apprenticeship",
+      "filename": "lp33-p03-trade_apprenticeship.json",
+      "careers": 14,
+      "status": "research_pending"
+    },
+    {
+      "pack_id": "LP33-P04",
+      "lane": "tvet",
+      "filename": "lp33-p04-tvet.json",
+      "careers": 5,
+      "status": "research_pending"
+    },
+    {
+      "pack_id": "LP33-P05",
+      "lane": "occupational",
+      "filename": "lp33-p05-occupational.json",
+      "careers": 15,
+      "status": "research_pending"
+    },
+    {
+      "pack_id": "LP33-P06",
+      "lane": "occupational",
+      "filename": "lp33-p06-occupational.json",
+      "careers": 15,
+      "status": "research_pending"
+    },
+    {
+      "pack_id": "LP33-P07",
+      "lane": "occupational",
+      "filename": "lp33-p07-occupational.json",
+      "careers": 14,
+      "status": "research_pending"
+    }
+  ]
+}

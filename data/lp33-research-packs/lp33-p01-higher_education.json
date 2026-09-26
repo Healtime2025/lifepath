@@ -1,0 +1,397 @@
+{
+  "pack_id": "LP33-P01",
+  "lane": "higher_education",
+  "status": "research_pending",
+  "policy": {
+    "official_sources_only": true,
+    "no_fabricated_saqa_ids": true,
+    "no_fabricated_programmes": true,
+    "no_fabricated_requirements": true,
+    "lifecycle_must_be_checked": true,
+    "provider_and_programme_verified_separately": true,
+    "multiple_valid_routes_allowed": true,
+    "pending_is_allowed": true
+  },
+  "career_count": 15,
+  "careers": [
+    {
+      "career_slug": "ai-ml-specialist",
+      "career_title": "AI & Machine Learning Specialist",
+      "category": "Technology",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "accountant",
+      "career_title": "Accountant",
+      "category": "Business & Finance",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "architect",
+      "career_title": "Architect",
+      "category": "Built Environment",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "biomedical-scientist",
+      "career_title": "Biomedical Scientist",
+      "category": "Science & Health",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "data-scientist",
+      "career_title": "Data Scientist",
+      "category": "Technology",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "electrical-engineer",
+      "career_title": "Electrical Engineer",
+      "category": "Engineering",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "environmental-scientist",
+      "career_title": "Environmental Scientist",
+      "category": "Science & Environment",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "industrial-engineer",
+      "career_title": "Industrial Engineer",
+      "category": "Engineering",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "lawyer",
+      "career_title": "Lawyer",
+      "category": "Law",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "mechanical-engineer",
+      "career_title": "Mechanical Engineer",
+      "category": "Engineering",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "mechatronics-engineer",
+      "career_title": "Mechatronics Engineer",
+      "category": "Engineering",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "doctor",
+      "career_title": "Medical Doctor",
+      "category": "Health",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "occupational-therapist",
+      "career_title": "Occupational Therapist",
+      "category": "Health",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "pharmacist",
+      "career_title": "Pharmacist",
+      "category": "Health",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "physiotherapist",
+      "career_title": "Physiotherapist",
+      "category": "Health",
+      "primary_lane": "higher_education",
+      "expected_pathways": [
+        "university"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    }
+  ]
+}

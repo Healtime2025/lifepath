@@ -1,0 +1,420 @@
+{
+  "pack_id": "LP33-P06",
+  "lane": "occupational",
+  "status": "research_pending",
+  "policy": {
+    "official_sources_only": true,
+    "no_fabricated_saqa_ids": true,
+    "no_fabricated_programmes": true,
+    "no_fabricated_requirements": true,
+    "lifecycle_must_be_checked": true,
+    "provider_and_programme_verified_separately": true,
+    "multiple_valid_routes_allowed": true,
+    "pending_is_allowed": true
+  },
+  "career_count": 15,
+  "careers": [
+    {
+      "career_slug": "financial-adviser",
+      "career_title": "Financial Adviser",
+      "category": "Business & Finance",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "firefighter",
+      "career_title": "Firefighter",
+      "category": "Public Safety",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "forklift-operator",
+      "career_title": "Forklift Operator",
+      "category": "Logistics",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "hairdresser",
+      "career_title": "Hairdresser",
+      "category": "Personal Services",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "horticulture-technician",
+      "career_title": "Horticulture Technician",
+      "category": "Agriculture",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "it-support-technician",
+      "career_title": "IT Support Technician",
+      "category": "Technology",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "laboratory-technician",
+      "career_title": "Laboratory Technician",
+      "category": "Science",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "legal-secretary",
+      "career_title": "Legal Secretary",
+      "category": "Administration & Law",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "library-assistant",
+      "career_title": "Library Assistant",
+      "category": "Education & Information",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "machine-operator",
+      "career_title": "Machine Operator",
+      "category": "Manufacturing",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "mining-technician",
+      "career_title": "Mining Technician",
+      "category": "Mining",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "network-technician",
+      "career_title": "Network Technician",
+      "category": "Technology",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "painter-decorator",
+      "career_title": "Painter & Decorator",
+      "category": "Construction",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "paralegal",
+      "career_title": "Paralegal",
+      "category": "Law",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "paramedic",
+      "career_title": "Paramedic",
+      "category": "Health",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "university_of_technology",
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    }
+  ]
+}

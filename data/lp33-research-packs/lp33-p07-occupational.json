@@ -1,0 +1,393 @@
+{
+  "pack_id": "LP33-P07",
+  "lane": "occupational",
+  "status": "research_pending",
+  "policy": {
+    "official_sources_only": true,
+    "no_fabricated_saqa_ids": true,
+    "no_fabricated_programmes": true,
+    "no_fabricated_requirements": true,
+    "lifecycle_must_be_checked": true,
+    "provider_and_programme_verified_separately": true,
+    "multiple_valid_routes_allowed": true,
+    "pending_is_allowed": true
+  },
+  "career_count": 14,
+  "careers": [
+    {
+      "career_slug": "photographer",
+      "career_title": "Photographer",
+      "category": "Creative & Media",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "police-officer",
+      "career_title": "Police Officer",
+      "category": "Public Service",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "truck-driver",
+      "career_title": "Professional Truck Driver",
+      "category": "Transport",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "retail-supervisor",
+      "career_title": "Retail Supervisor",
+      "category": "Retail",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "secretary",
+      "career_title": "Secretary",
+      "category": "Administration",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "security-officer",
+      "career_title": "Security Officer",
+      "category": "Public Safety",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "software-developer",
+      "career_title": "Software Developer",
+      "category": "Technology",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "solar-installer",
+      "career_title": "Solar PV Installer",
+      "category": "Green Economy",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "tiler",
+      "career_title": "Tiler",
+      "category": "Construction",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "tour-guide",
+      "career_title": "Tour Guide",
+      "category": "Tourism",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "traffic-officer",
+      "career_title": "Traffic Officer",
+      "category": "Public Safety",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "ux-designer",
+      "career_title": "UX / Product Designer",
+      "category": "Creative & Technology",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "warehouse-controller",
+      "career_title": "Warehouse Controller",
+      "category": "Logistics",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    },
+    {
+      "career_slug": "water-process-controller",
+      "career_title": "Water Process Controller",
+      "category": "Water & Environment",
+      "primary_lane": "occupational",
+      "expected_pathways": [
+        "occupational",
+        "tvet",
+        "learnership"
+      ],
+      "research_status": "pending",
+      "official_sources": {
+        "qualification": null,
+        "provider": null,
+        "programme_or_route": null,
+        "requirements": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "lifecycle_verified": false,
+        "provider_verified": false,
+        "programme_or_route_verified": false,
+        "requirements_verified": false,
+        "ready_for_import": false
+      },
+      "notes": null
+    }
+  ]
+}

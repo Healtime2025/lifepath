@@ -1,0 +1,857 @@
+{
+  "generated_at": "2026-09-26T08:45:45.952Z",
+  "policy": {
+    "official_sources_only": true,
+    "never_guess_saqa_id": true,
+    "never_guess_programme": true,
+    "never_guess_requirements": true,
+    "qualification_lifecycle_required": true,
+    "provider_and_programme_verified_separately": true,
+    "multiple_routes_allowed": true,
+    "pending_allowed": true
+  },
+  "database": {
+    "active_careers": 88,
+    "active_qualifications": 3,
+    "lifecycle_tracked_qualifications": 1,
+    "active_programmes": 3
+  },
+  "research_queue": {
+    "queue_size": 86,
+    "already_programme_linked": 4,
+    "remaining": 82
+  },
+  "remaining_by_category": {
+    "Technology": 6,
+    "Business & Finance": 4,
+    "Agriculture": 3,
+    "Built Environment": 2,
+    "Hospitality": 3,
+    "Personal Services": 2,
+    "Science & Health": 1,
+    "Trades": 11,
+    "Manufacturing": 2,
+    "Health & Community": 2,
+    "Construction": 3,
+    "Customer Service": 1,
+    "Health": 7,
+    "Creative & Business": 1,
+    "Education": 2,
+    "Engineering": 4,
+    "Science & Environment": 1,
+    "Public Safety": 3,
+    "Logistics": 2,
+    "Creative & Media": 3,
+    "Business & People": 1,
+    "Engineering & Trades": 1,
+    "Science": 1,
+    "Law": 2,
+    "Administration & Law": 1,
+    "Education & Information": 1,
+    "Business & Logistics": 1,
+    "Mining": 1,
+    "Public Service": 1,
+    "Transport": 1,
+    "Retail": 1,
+    "Administration": 1,
+    "Community & Care": 1,
+    "Green Economy": 2,
+    "Tourism": 1,
+    "Creative & Technology": 1,
+    "Water & Environment": 1
+  },
+  "careers": [
+    {
+      "career_slug": "ai-ml-specialist",
+      "career_title": "AI & Machine Learning Specialist",
+      "category": "Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "accountant",
+      "career_title": "Accountant",
+      "category": "Business & Finance",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "agricultural-technician",
+      "career_title": "Agricultural Technician",
+      "category": "Agriculture",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "architect",
+      "career_title": "Architect",
+      "category": "Built Environment",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "baker",
+      "career_title": "Baker",
+      "category": "Hospitality",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "banking-service-consultant",
+      "career_title": "Banking Service Consultant",
+      "category": "Business & Finance",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "beauty-therapist",
+      "career_title": "Beauty Therapist",
+      "category": "Personal Services",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "biomedical-scientist",
+      "career_title": "Biomedical Scientist",
+      "category": "Science & Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "boilermaker",
+      "career_title": "Boilermaker",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "bookkeeper",
+      "career_title": "Bookkeeper",
+      "category": "Business & Finance",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "bricklayer",
+      "career_title": "Bricklayer",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "cnc-machinist",
+      "career_title": "CNC Machinist",
+      "category": "Manufacturing",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "care-worker",
+      "career_title": "Care Worker",
+      "category": "Health & Community",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "carpenter",
+      "career_title": "Carpenter",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "chef",
+      "career_title": "Chef",
+      "category": "Hospitality",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "civil-engineer",
+      "career_title": "Civil Engineer",
+      "category": "Engineering",
+      "in_research_queue": false,
+      "qualification_count": 1,
+      "programme_count": 1,
+      "current_status": "programme_linked"
+    },
+    {
+      "career_slug": "community-health-worker",
+      "career_title": "Community Health Worker",
+      "category": "Health & Community",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "construction-supervisor",
+      "career_title": "Construction Supervisor",
+      "category": "Construction",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "call-centre-agent",
+      "career_title": "Contact Centre Agent",
+      "category": "Customer Service",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "cybersecurity-specialist",
+      "career_title": "Cybersecurity Specialist",
+      "category": "Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "data-capturer",
+      "career_title": "Data Capturer",
+      "category": "Administration",
+      "in_research_queue": true,
+      "qualification_count": 1,
+      "programme_count": 1,
+      "current_status": "programme_linked"
+    },
+    {
+      "career_slug": "data-scientist",
+      "career_title": "Data Scientist",
+      "category": "Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "dental-assistant",
+      "career_title": "Dental Assistant",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "diesel-mechanic",
+      "career_title": "Diesel Mechanic",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "digital-marketer",
+      "career_title": "Digital Marketer",
+      "category": "Creative & Business",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "ecd-practitioner",
+      "career_title": "Early Childhood Development Practitioner",
+      "category": "Education",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "electrical-engineer",
+      "career_title": "Electrical Engineer",
+      "category": "Engineering",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "electrician",
+      "career_title": "Electrician",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "environmental-scientist",
+      "career_title": "Environmental Scientist",
+      "category": "Science & Environment",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "farmer",
+      "career_title": "Farmer / Farm Manager",
+      "category": "Agriculture",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "financial-adviser",
+      "career_title": "Financial Adviser",
+      "category": "Business & Finance",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "firefighter",
+      "career_title": "Firefighter",
+      "category": "Public Safety",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "fitter-turner",
+      "career_title": "Fitter and Turner",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "forklift-operator",
+      "career_title": "Forklift Operator",
+      "category": "Logistics",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "graphic-designer",
+      "career_title": "Graphic Designer",
+      "category": "Creative & Media",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "hairdresser",
+      "career_title": "Hairdresser",
+      "category": "Personal Services",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "horticulture-technician",
+      "career_title": "Horticulture Technician",
+      "category": "Agriculture",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "hotel-supervisor",
+      "career_title": "Hotel / Guest Services Supervisor",
+      "category": "Hospitality",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "human-resources-administrator",
+      "career_title": "Human Resources Administrator",
+      "category": "Business & People",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "it-support-technician",
+      "career_title": "IT Support Technician",
+      "category": "Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "industrial-engineer",
+      "career_title": "Industrial Engineer",
+      "category": "Engineering",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "instrumentation-technician",
+      "career_title": "Instrumentation Technician",
+      "category": "Engineering & Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "laboratory-technician",
+      "career_title": "Laboratory Technician",
+      "category": "Science",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "lawyer",
+      "career_title": "Lawyer",
+      "category": "Law",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "legal-secretary",
+      "career_title": "Legal Secretary",
+      "category": "Administration & Law",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "library-assistant",
+      "career_title": "Library Assistant",
+      "category": "Education & Information",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "logistics-coordinator",
+      "career_title": "Logistics Coordinator",
+      "category": "Business & Logistics",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "machine-operator",
+      "career_title": "Machine Operator",
+      "category": "Manufacturing",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "mechanical-engineer",
+      "career_title": "Mechanical Engineer",
+      "category": "Engineering",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "mechatronics-engineer",
+      "career_title": "Mechatronics Engineer",
+      "category": "Engineering",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "doctor",
+      "career_title": "Medical Doctor",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "millwright",
+      "career_title": "Millwright",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "mining-technician",
+      "career_title": "Mining Technician",
+      "category": "Mining",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "motor-mechanic",
+      "career_title": "Motor Mechanic",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "network-technician",
+      "career_title": "Network Technician",
+      "category": "Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "occupational-therapist",
+      "career_title": "Occupational Therapist",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "office-administrator",
+      "career_title": "Office Administrator",
+      "category": "Administration",
+      "in_research_queue": true,
+      "qualification_count": 1,
+      "programme_count": 1,
+      "current_status": "programme_linked"
+    },
+    {
+      "career_slug": "painter-decorator",
+      "career_title": "Painter & Decorator",
+      "category": "Construction",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "paralegal",
+      "career_title": "Paralegal",
+      "category": "Law",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "paramedic",
+      "career_title": "Paramedic",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "personal-assistant",
+      "career_title": "Personal / Executive Assistant",
+      "category": "Administration",
+      "in_research_queue": true,
+      "qualification_count": 1,
+      "programme_count": 1,
+      "current_status": "programme_linked"
+    },
+    {
+      "career_slug": "pharmacist",
+      "career_title": "Pharmacist",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "photographer",
+      "career_title": "Photographer",
+      "category": "Creative & Media",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "physiotherapist",
+      "career_title": "Physiotherapist",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "plumber",
+      "career_title": "Plumber",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "police-officer",
+      "career_title": "Police Officer",
+      "category": "Public Service",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "professional-nurse",
+      "career_title": "Professional Nurse",
+      "category": "Health",
+      "in_research_queue": false,
+      "qualification_count": 1,
+      "programme_count": 1,
+      "current_status": "programme_linked"
+    },
+    {
+      "career_slug": "truck-driver",
+      "career_title": "Professional Truck Driver",
+      "category": "Transport",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "quantity-surveyor",
+      "career_title": "Quantity Surveyor",
+      "category": "Built Environment",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "radiographer",
+      "career_title": "Radiographer",
+      "category": "Health",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "receptionist",
+      "career_title": "Receptionist",
+      "category": "Administration",
+      "in_research_queue": true,
+      "qualification_count": 1,
+      "programme_count": 1,
+      "current_status": "programme_linked"
+    },
+    {
+      "career_slug": "refrigeration-technician",
+      "career_title": "Refrigeration & Air-Conditioning Technician",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "retail-supervisor",
+      "career_title": "Retail Supervisor",
+      "category": "Retail",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "secretary",
+      "career_title": "Secretary",
+      "category": "Administration",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "security-officer",
+      "career_title": "Security Officer",
+      "category": "Public Safety",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "social-worker",
+      "career_title": "Social Worker",
+      "category": "Community & Care",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "software-developer",
+      "career_title": "Software Developer",
+      "category": "Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "solar-installer",
+      "career_title": "Solar PV Installer",
+      "category": "Green Economy",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "teacher",
+      "career_title": "Teacher",
+      "category": "Education",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "tiler",
+      "career_title": "Tiler",
+      "category": "Construction",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "tour-guide",
+      "career_title": "Tour Guide",
+      "category": "Tourism",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "traffic-officer",
+      "career_title": "Traffic Officer",
+      "category": "Public Safety",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "ux-designer",
+      "career_title": "UX / Product Designer",
+      "category": "Creative & Technology",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "videographer",
+      "career_title": "Videographer",
+      "category": "Creative & Media",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "warehouse-controller",
+      "career_title": "Warehouse Controller",
+      "category": "Logistics",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "water-process-controller",
+      "career_title": "Water Process Controller",
+      "category": "Water & Environment",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "welder",
+      "career_title": "Welder",
+      "category": "Trades",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    },
+    {
+      "career_slug": "wind-turbine-technician",
+      "career_title": "Wind Turbine Technician",
+      "category": "Green Economy",
+      "in_research_queue": true,
+      "qualification_count": 0,
+      "programme_count": 0,
+      "current_status": "research_required"
+    }
+  ]
+}
