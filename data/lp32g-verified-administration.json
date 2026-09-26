@@ -1,4 +1,4 @@
-﻿{
+{
     "stage":  "LP-3.2G",
     "source_policy":  "Official sources only",
     "qualification":  {
@@ -18,7 +18,7 @@
                       },
     "provider":  {
                      "name":  "Tshwane University of Technology",
-                     "slug":  "tshwane-university-of-technology",
+                     "slug":  "tut",
                      "short_name":  "TUT",
                      "institution_type":  "university_of_technology",
                      "verified":  true,

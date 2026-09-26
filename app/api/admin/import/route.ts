@@ -1,8 +1,66 @@
-﻿import { requireAdmin } from '@/lib/auth';import { db } from '@/lib/db';import { bad,cleanText,cleanUrl,ok } from '@/lib/http';
+import { requireAdmin } from '@/lib/auth';import { db } from '@/lib/db';import { bad,cleanText,cleanUrl,ok } from '@/lib/http';
 const slugify=(s:string)=>s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,140);
 export async function POST(req:Request){try{const u=await requireAdmin();const b=await req.json();const type=cleanText(b.importType,40),sourceName=cleanText(b.sourceName,180),sourceUrl=cleanUrl(b.sourceUrl)||null,records=Array.isArray(b.records)?b.records:[];if(!['institutions','qualifications','career_qualifications','programmes','funding'].includes(type)||!sourceName||!records.length)return bad('Choose an import type, source and at least one record.');if(records.length>2000)return bad('Import batches are limited to 2,000 records.');const sql=db();let upserted=0;const errors:any[]=[];for(let idx=0;idx<records.length;idx++){const r=records[idx]||{};try{if(type==='institutions'){const name=cleanText(r.name,240);if(!name)throw new Error('name required');const slug=cleanText(r.slug,160)||slugify(name);const it=cleanText(r.institution_type||r.type,60)||'skills_provider';const province=cleanText(r.province,80)||null,city=cleanText(r.city,100)||null,website=cleanUrl(r.website_url||r.website)||null,apply=cleanUrl(r.application_url)||null,status=['verified','needs_verification','inactive'].includes(r.verification_status)?r.verification_status:'needs_verification',body=cleanText(r.verification_body,180)||null,reg=cleanText(r.registration_number,120)||null,vurl=cleanUrl(r.verification_source_url)||sourceUrl;await sql`INSERT INTO institutions(name,slug,institution_type,province,city,website_url,application_url,verification_status,verification_body,registration_number,verification_source_url,verification_checked_at,public_institution,active) VALUES(${name},${slug},${it},${province},${city},${website},${apply},${status},${body},${reg},${vurl},CASE WHEN ${status}='verified' THEN now() ELSE NULL END,${!!r.public_institution},${r.active!==false}) ON CONFLICT(slug) DO UPDATE SET name=EXCLUDED.name,institution_type=EXCLUDED.institution_type,province=EXCLUDED.province,city=EXCLUDED.city,website_url=EXCLUDED.website_url,application_url=EXCLUDED.application_url,verification_status=EXCLUDED.verification_status,verification_body=EXCLUDED.verification_body,registration_number=EXCLUDED.registration_number,verification_source_url=EXCLUDED.verification_source_url,verification_checked_at=EXCLUDED.verification_checked_at,public_institution=EXCLUDED.public_institution,active=EXCLUDED.active,updated_at=now()`;}
-else if(type==='qualifications'){const title=cleanText(r.title,260),qt=cleanText(r.qualification_type||r.type,100);if(!title||!qt)throw new Error('title and qualification_type required');const nqf=Number.isFinite(Number(r.nqf_level))?Number(r.nqf_level):null,saqa=cleanText(r.saqa_id,80)||'',field=cleanText(r.field,160)||null,duration=cleanText(r.duration_text,120)||null,surl=cleanUrl(r.source_url)||sourceUrl;await sql`INSERT INTO qualifications(title,qualification_type,nqf_level,saqa_id,field,duration_text,source_url) VALUES(${title},${qt},${nqf},${saqa},${field},${duration},${surl}) ON CONFLICT(title,qualification_type,saqa_id) DO UPDATE SET nqf_level=EXCLUDED.nqf_level,field=EXCLUDED.field,duration_text=EXCLUDED.duration_text,source_url=EXCLUDED.source_url,active=true`;}
-else if(type==='career_qualifications'){
+else if(type==='qualifications'){
+const title=cleanText(r.title,260),
+qt=cleanText(r.qualification_type||r.type,100);
+
+if(!title||!qt)
+throw new Error('title and qualification_type required');
+
+const nqf=Number.isFinite(Number(r.nqf_level))?Number(r.nqf_level):null,
+saqa=cleanText(r.saqa_id,80)||'',
+field=cleanText(r.field,160)||null,
+duration=cleanText(r.duration_text,120)||null,
+surl=cleanUrl(r.source_url)||sourceUrl,
+registrationStatus=cleanText(r.registration_status,80)||null,
+registrationStartDate=cleanText(r.registration_start_date,10)||null,
+registrationEndDate=cleanText(r.registration_end_date,10)||null,
+lastEnrolmentDate=cleanText(r.last_enrolment_date,10)||null,
+lastAchievementDate=cleanText(r.last_achievement_date,10)||null;
+
+await sql`
+INSERT INTO qualifications(
+title,
+qualification_type,
+nqf_level,
+saqa_id,
+field,
+duration_text,
+source_url,
+registration_status,
+registration_start_date,
+registration_end_date,
+last_enrolment_date,
+last_achievement_date
+)
+VALUES(
+${title},
+${qt},
+${nqf},
+${saqa},
+${field},
+${duration},
+${surl},
+${registrationStatus},
+${registrationStartDate},
+${registrationEndDate},
+${lastEnrolmentDate},
+${lastAchievementDate}
+)
+ON CONFLICT(title,qualification_type,saqa_id)
+DO UPDATE SET
+nqf_level=EXCLUDED.nqf_level,
+field=EXCLUDED.field,
+duration_text=EXCLUDED.duration_text,
+source_url=EXCLUDED.source_url,
+registration_status=EXCLUDED.registration_status,
+registration_start_date=EXCLUDED.registration_start_date,
+registration_end_date=EXCLUDED.registration_end_date,
+last_enrolment_date=EXCLUDED.last_enrolment_date,
+last_achievement_date=EXCLUDED.last_achievement_date,
+active=true`;
+}else if(type==='career_qualifications'){
 const careerSlug=cleanText(r.career_slug,160),
 qualificationTitle=cleanText(r.qualification_title,260),
 qualificationType=cleanText(r.qualification_type||r.type,100),

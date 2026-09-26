@@ -121,6 +121,11 @@ CREATE TABLE IF NOT EXISTS qualifications (
   field text,
   duration_text text,
   source_url text,
+  registration_status text,
+  registration_start_date date,
+  registration_end_date date,
+  last_enrolment_date date,
+  last_achievement_date date,
   active boolean NOT NULL DEFAULT true,
   UNIQUE(title, qualification_type, saqa_id)
 );
