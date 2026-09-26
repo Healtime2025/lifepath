@@ -117,6 +117,8 @@ CREATE TABLE IF NOT EXISTS qualifications (
   title text NOT NULL,
   qualification_type text NOT NULL,
   nqf_level integer,
+  credits integer,
+  subfield text,
   saqa_id text NOT NULL DEFAULT '',
   field text,
   duration_text text,

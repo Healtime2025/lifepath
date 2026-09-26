@@ -1,0 +1,113 @@
+﻿{
+  "stage": "LP-3.3A",
+  "status": "verified",
+  "verified_at": "2026-09-26",
+  "source_policy": "official_sources_only",
+
+  "provider": {
+    "name": "University of Pretoria",
+    "verification_status": "verified",
+    "website": "https://www.up.ac.za/"
+  },
+
+  "shared_requirements": {
+    "curriculum": "NSC/IEB",
+    "academic_year": 2027,
+    "english": {
+      "subject": "English Home Language or English First Additional Language",
+      "achievement_level": 5
+    },
+    "mathematics": {
+      "subject": "Mathematics",
+      "achievement_level": 6
+    },
+    "physical_sciences": {
+      "subject": "Physical Sciences",
+      "achievement_level": 6
+    },
+    "aps": 35,
+    "note": "Published minimum requirements for prospective students for 2027. Meeting the minimum requirements does not guarantee admission."
+  },
+
+  "pathways": [
+    {
+      "career_slug": "electrical-engineer",
+      "qualification": {
+        "title": "Bachelor of Engineering in Electrical Engineering",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "5121",
+        "nqf_level": 8,
+        "credits": 480,
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2033-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=5121"
+      },
+      "programme": {
+        "name": "BEng in Electrical Engineering 4-year programme",
+        "programme_code": "12130013",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/beng-electrical-engineering-4-year-programme/2026"
+      }
+    },
+
+    {
+      "career_slug": "industrial-engineer",
+      "qualification": {
+        "title": "Bachelor of Engineering in Industrial Engineering",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "5113",
+        "nqf_level": 8,
+        "credits": 480,
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2033-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=5113"
+      },
+      "programme": {
+        "name": "BEng in Industrial Engineering 4-year programme",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/beng-industrial-engineering-4-year-programme/2027"
+      }
+    },
+
+    {
+      "career_slug": "mechanical-engineer",
+      "qualification": {
+        "title": "Bachelor of Engineering in Mechanical Engineering",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "5129",
+        "nqf_level": 8,
+        "credits": 480,
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2033-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=5129"
+      },
+      "programme": {
+        "name": "BEng in Mechanical Engineering 4-year programme",
+        "programme_code": "12130014",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/research-focus-areas/programmes/undergraduate/beng-mechanical-engineering-4-year-programme/2027"
+      }
+    }
+  ],
+
+  "verification": {
+    "qualification_verified": true,
+    "lifecycle_verified": true,
+    "provider_verified": true,
+    "programme_verified": true,
+    "requirements_verified": true,
+    "ready_for_import": true
+  }
+}

@@ -1,0 +1,204 @@
+﻿{
+  "stage": "LP-3.3",
+  "status": "verified",
+  "verified_at": "2026-09-26",
+  "source_policy": "official_sources_only",
+
+  "provider": {
+    "name": "University of Pretoria",
+    "verification_status": "verified",
+    "website": "https://www.up.ac.za/"
+  },
+
+  "pathways": [
+    {
+      "career_slug": "lawyer",
+      "qualification": {
+        "title": "Bachelor of Laws",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "6875",
+        "nqf_level": 8,
+        "credits": 480,
+        "field": "Law, Military Science and Security",
+        "subfield": "Justice in Society",
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2034-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=6875"
+      },
+      "programme": {
+        "name": "Bachelor of Laws [LLB]",
+        "programme_code": "04130012",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/student-fees/programmes/undergraduate/bachelor-of-laws-llb/2027"
+      },
+      "requirements": {
+        "curriculum": "NSC/IEB",
+        "english": {
+          "subject": "English Home Language or English First Additional Language",
+          "achievement_level": 6
+        },
+        "aps": 35,
+        "note": "Published minimum requirements for 2027. Meeting the minimum requirements does not guarantee admission."
+      }
+    },
+
+    {
+      "career_slug": "physiotherapist",
+      "qualification": {
+        "title": "Bachelor of Physiotherapy",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "15220",
+        "nqf_level": 8,
+        "credits": 480,
+        "field": "Health Sciences and Social Services",
+        "subfield": "Curative Health",
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2034-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=15220"
+      },
+      "programme": {
+        "name": "Bachelor of Physiotherapy [BPhysio]",
+        "programme_code": "10138103",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/bachelor-of-physiotherapy-bphysio/2027"
+      },
+      "requirements": {
+        "curriculum": "NSC/IEB",
+        "english": {
+          "subject": "English Home Language or English First Additional Language",
+          "achievement_level": 4
+        },
+        "mathematics": {
+          "subject": "Mathematics",
+          "achievement_level": 4
+        },
+        "physical_sciences": {
+          "subject": "Physical Sciences",
+          "achievement_level": 4
+        },
+        "aps": 30,
+        "note": "Published minimum requirements for 2027. Meeting the minimum academic requirements does not guarantee admission."
+      }
+    },
+
+    {
+      "career_slug": "social-worker",
+      "qualification": {
+        "title": "Bachelor of Social Work",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "73035",
+        "nqf_level": 8,
+        "credits": 480,
+        "field": "Health Sciences and Social Services",
+        "subfield": "Promotive Health and Developmental Services",
+        "registration_status": "Registered-data under construction",
+        "registration_start_date": "2024-11-21",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2027-06-30",
+        "last_achievement_date": "2029-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=73035"
+      },
+      "programme": {
+        "name": "Bachelor of Social Work [BSW]",
+        "programme_code": "01130144",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/bachelor-of-social-work-bsw/2027"
+      },
+      "requirements": {
+        "curriculum": "NSC/IEB",
+        "english": {
+          "subject": "English Home Language or English First Additional Language",
+          "achievement_level": 5
+        },
+        "aps": 28,
+        "note": "UP publishes APS 30 for Grade 11 applicants and APS 28 for completed NSC/IEB applicants. Meeting minimum requirements does not guarantee admission."
+      }
+    },
+
+    {
+      "career_slug": "radiographer",
+      "qualification": {
+        "title": "Bachelor of Radiography in Diagnostics",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "111818",
+        "nqf_level": 8,
+        "credits": 480,
+        "field": "Health Sciences and Social Services",
+        "subfield": "Curative Health",
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2034-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=111818"
+      },
+      "programme": {
+        "name": "Bachelor of Radiography in Diagnostics [BRad in Diagnostics]",
+        "programme_code": "10137100",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/health-professions-education-up-hpeup/programmes/undergraduate/bachelor-of-radiography-diagnostics-brad-diagnostics/2027"
+      },
+      "requirements": {
+        "curriculum": "NSC/IEB",
+        "english": {
+          "subject": "English Home Language or English First Additional Language",
+          "achievement_level": 4
+        },
+        "mathematics": {
+          "subject": "Mathematics",
+          "achievement_level": 4
+        },
+        "physical_sciences": {
+          "subject": "Physical Sciences",
+          "achievement_level": 4
+        },
+        "aps": 30,
+        "note": "Published minimum requirements for 2027. Meeting the minimum academic requirements does not guarantee admission."
+      }
+    },
+
+    {
+      "career_slug": "teacher",
+      "qualification": {
+        "title": "Bachelor of Education in Senior Phase and Further Education and Training Teaching",
+        "qualification_type": "National First Degree",
+        "saqa_id": "96458",
+        "nqf_level": 7,
+        "credits": 480,
+        "field": "Education, Training and Development",
+        "subfield": "Schooling",
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2034-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=96458"
+      },
+      "programme": {
+        "name": "BEd in Senior Phase and Further Education and Training Teaching",
+        "programme_code": "09133015",
+        "academic_year": 2027,
+        "duration": "4 years, full-time",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/bed-senior-phase-and-further-education-and-training-teaching/2027"
+      }
+    }
+  ],
+
+  "verification": {
+    "qualification_verified": true,
+    "lifecycle_verified": true,
+    "provider_verified": true,
+    "programme_verified": true,
+    "ready_for_import": true
+  }
+}
