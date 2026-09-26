@@ -1,0 +1,76 @@
+﻿{
+    "stage":  "LP-3.2G",
+    "source_policy":  "Official sources only",
+    "qualification":  {
+                          "title":  "Higher Certificate in Administrative Information Management",
+                          "qualification_type":  "Higher Certificate",
+                          "saqa_id":  "120140",
+                          "nqf_level":  5,
+                          "credits":  120,
+                          "field":  "Business, Commerce and Management Studies",
+                          "subfield":  "Office Administration",
+                          "registration_status":  "Reregistered",
+                          "registration_start_date":  "2026-02-02",
+                          "registration_end_date":  "2029-02-02",
+                          "last_enrolment_date":  "2030-02-02",
+                          "last_achievement_date":  "2033-02-02",
+                          "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=120140"
+                      },
+    "provider":  {
+                     "name":  "Tshwane University of Technology",
+                     "slug":  "tshwane-university-of-technology",
+                     "short_name":  "TUT",
+                     "institution_type":  "university_of_technology",
+                     "verified":  true,
+                     "verification_body":  "SAQA / CHE",
+                     "website_url":  "https://www.tut.ac.za/"
+                 },
+    "programme":  {
+                      "name":  "Higher Certificate in Administrative Information Management",
+                      "qualification_code":  "HCIM04",
+                      "academic_year":  2027,
+                      "presentation":  "Online",
+                      "campus":  "Pretoria Campus",
+                      "duration":  "1 year full-time or 2 years part-time",
+                      "programme_url":  "https://online.tut.ac.za/online-programmes/TUT-HCAIM-Higher-Certificate-in-Administrative-Information-Management",
+                      "requirements":  {
+                                           "curriculum":  "NSC",
+                                           "aps":  20,
+                                           "english":  {
+                                                           "subject":  "English Home Language or English First Additional Language",
+                                                           "achievement_level":  3
+                                                       },
+                                           "note":  "Published minimum requirements. Meeting minimum requirements does not guarantee admission."
+                                       }
+                  },
+    "career_links":  [
+                         {
+                             "career_slug":  "office-administrator",
+                             "relevance":  "primary",
+                             "evidence":  "TUT identifies Office Administrators as a suitable role."
+                         },
+                         {
+                             "career_slug":  "data-capturer",
+                             "relevance":  "primary",
+                             "evidence":  "SAQA and TUT identify Data Capturer as a career outcome."
+                         },
+                         {
+                             "career_slug":  "receptionist",
+                             "relevance":  "related",
+                             "evidence":  "TUT identifies Receptionists as a suitable role."
+                         },
+                         {
+                             "career_slug":  "personal-assistant",
+                             "relevance":  "related",
+                             "evidence":  "TUT identifies Personal Assistants as a suitable role."
+                         }
+                     ],
+    "verification":  {
+                         "qualification_verified":  true,
+                         "provider_verified":  true,
+                         "programme_verified":  true,
+                         "requirements_verified":  true,
+                         "lifecycle_checked":  true,
+                         "ready_for_import":  true
+                     }
+}
