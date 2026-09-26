@@ -1,0 +1,3950 @@
+{
+  "stage": "LP-3.2D",
+  "purpose": "All 88 Career Pathway Verification",
+  "policy": {
+    "official_sources_only": true,
+    "no_fabricated_qualifications": true,
+    "no_fabricated_programmes": true,
+    "no_fabricated_requirements": true,
+    "allow_pending_verification": true
+  },
+  "summary": {
+    "total_careers": 88,
+    "already_verified": 2,
+    "research_required": 86
+  },
+  "careers": [
+    {
+      "number": 1,
+      "career_slug": "data-capturer",
+      "career_title": "Data Capturer",
+      "category": "Administration",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 2,
+      "career_slug": "office-administrator",
+      "career_title": "Office Administrator",
+      "category": "Administration",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 3,
+      "career_slug": "personal-assistant",
+      "career_title": "Personal / Executive Assistant",
+      "category": "Administration",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 4,
+      "career_slug": "receptionist",
+      "career_title": "Receptionist",
+      "category": "Administration",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 5,
+      "career_slug": "secretary",
+      "career_title": "Secretary",
+      "category": "Administration",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 6,
+      "career_slug": "legal-secretary",
+      "career_title": "Legal Secretary",
+      "category": "Administration & Law",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 7,
+      "career_slug": "agricultural-technician",
+      "career_title": "Agricultural Technician",
+      "category": "Agriculture",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 8,
+      "career_slug": "farmer",
+      "career_title": "Farmer / Farm Manager",
+      "category": "Agriculture",
+      "expected_pathways": [
+        "tvet",
+        "university",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 9,
+      "career_slug": "horticulture-technician",
+      "career_title": "Horticulture Technician",
+      "category": "Agriculture",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 10,
+      "career_slug": "architect",
+      "career_title": "Architect",
+      "category": "Built Environment",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 11,
+      "career_slug": "quantity-surveyor",
+      "career_title": "Quantity Surveyor",
+      "category": "Built Environment",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 12,
+      "career_slug": "accountant",
+      "career_title": "Accountant",
+      "category": "Business & Finance",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 13,
+      "career_slug": "banking-service-consultant",
+      "career_title": "Banking Service Consultant",
+      "category": "Business & Finance",
+      "expected_pathways": [
+        "learnership",
+        "occupational",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 14,
+      "career_slug": "bookkeeper",
+      "career_title": "Bookkeeper",
+      "category": "Business & Finance",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 15,
+      "career_slug": "financial-adviser",
+      "career_title": "Financial Adviser",
+      "category": "Business & Finance",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 16,
+      "career_slug": "logistics-coordinator",
+      "career_title": "Logistics Coordinator",
+      "category": "Business & Logistics",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 17,
+      "career_slug": "human-resources-administrator",
+      "career_title": "Human Resources Administrator",
+      "category": "Business & People",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 18,
+      "career_slug": "social-worker",
+      "career_title": "Social Worker",
+      "category": "Community & Care",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 19,
+      "career_slug": "construction-supervisor",
+      "career_title": "Construction Supervisor",
+      "category": "Construction",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 20,
+      "career_slug": "painter-decorator",
+      "career_title": "Painter & Decorator",
+      "category": "Construction",
+      "expected_pathways": [
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 21,
+      "career_slug": "tiler",
+      "career_title": "Tiler",
+      "category": "Construction",
+      "expected_pathways": [
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 22,
+      "career_slug": "digital-marketer",
+      "career_title": "Digital Marketer",
+      "category": "Creative & Business",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 23,
+      "career_slug": "graphic-designer",
+      "career_title": "Graphic Designer",
+      "category": "Creative & Media",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 24,
+      "career_slug": "photographer",
+      "career_title": "Photographer",
+      "category": "Creative & Media",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 25,
+      "career_slug": "videographer",
+      "career_title": "Videographer",
+      "category": "Creative & Media",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 26,
+      "career_slug": "ux-designer",
+      "career_title": "UX / Product Designer",
+      "category": "Creative & Technology",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 27,
+      "career_slug": "call-centre-agent",
+      "career_title": "Contact Centre Agent",
+      "category": "Customer Service",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 28,
+      "career_slug": "ecd-practitioner",
+      "career_title": "Early Childhood Development Practitioner",
+      "category": "Education",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 29,
+      "career_slug": "teacher",
+      "career_title": "Teacher",
+      "category": "Education",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 30,
+      "career_slug": "library-assistant",
+      "career_title": "Library Assistant",
+      "category": "Education & Information",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 31,
+      "career_slug": "civil-engineer",
+      "career_title": "Civil Engineer",
+      "category": "Engineering",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "verified",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": "Existing verified LifePath pathway."
+      }
+    },
+    {
+      "number": 32,
+      "career_slug": "electrical-engineer",
+      "career_title": "Electrical Engineer",
+      "category": "Engineering",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 33,
+      "career_slug": "industrial-engineer",
+      "career_title": "Industrial Engineer",
+      "category": "Engineering",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 34,
+      "career_slug": "mechanical-engineer",
+      "career_title": "Mechanical Engineer",
+      "category": "Engineering",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 35,
+      "career_slug": "mechatronics-engineer",
+      "career_title": "Mechatronics Engineer",
+      "category": "Engineering",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 36,
+      "career_slug": "instrumentation-technician",
+      "career_title": "Instrumentation Technician",
+      "category": "Engineering & Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "university_of_technology"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 37,
+      "career_slug": "solar-installer",
+      "career_title": "Solar PV Installer",
+      "category": "Green Economy",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 38,
+      "career_slug": "wind-turbine-technician",
+      "career_title": "Wind Turbine Technician",
+      "category": "Green Economy",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 39,
+      "career_slug": "dental-assistant",
+      "career_title": "Dental Assistant",
+      "category": "Health",
+      "expected_pathways": [
+        "occupational",
+        "tvet",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 40,
+      "career_slug": "doctor",
+      "career_title": "Medical Doctor",
+      "category": "Health",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 41,
+      "career_slug": "occupational-therapist",
+      "career_title": "Occupational Therapist",
+      "category": "Health",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 42,
+      "career_slug": "paramedic",
+      "career_title": "Paramedic",
+      "category": "Health",
+      "expected_pathways": [
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 43,
+      "career_slug": "pharmacist",
+      "career_title": "Pharmacist",
+      "category": "Health",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 44,
+      "career_slug": "physiotherapist",
+      "career_title": "Physiotherapist",
+      "category": "Health",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 45,
+      "career_slug": "professional-nurse",
+      "career_title": "Professional Nurse",
+      "category": "Health",
+      "expected_pathways": [
+        "university",
+        "university_of_technology"
+      ],
+      "status": "verified",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": "Existing verified LifePath pathway."
+      }
+    },
+    {
+      "number": 46,
+      "career_slug": "radiographer",
+      "career_title": "Radiographer",
+      "category": "Health",
+      "expected_pathways": [
+        "university_of_technology",
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 47,
+      "career_slug": "care-worker",
+      "career_title": "Care Worker",
+      "category": "Health & Community",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 48,
+      "career_slug": "community-health-worker",
+      "career_title": "Community Health Worker",
+      "category": "Health & Community",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 49,
+      "career_slug": "baker",
+      "career_title": "Baker",
+      "category": "Hospitality",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 50,
+      "career_slug": "chef",
+      "career_title": "Chef",
+      "category": "Hospitality",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 51,
+      "career_slug": "hotel-supervisor",
+      "career_title": "Hotel / Guest Services Supervisor",
+      "category": "Hospitality",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 52,
+      "career_slug": "lawyer",
+      "career_title": "Lawyer",
+      "category": "Law",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 53,
+      "career_slug": "paralegal",
+      "career_title": "Paralegal",
+      "category": "Law",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 54,
+      "career_slug": "forklift-operator",
+      "career_title": "Forklift Operator",
+      "category": "Logistics",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 55,
+      "career_slug": "warehouse-controller",
+      "career_title": "Warehouse Controller",
+      "category": "Logistics",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 56,
+      "career_slug": "cnc-machinist",
+      "career_title": "CNC Machinist",
+      "category": "Manufacturing",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 57,
+      "career_slug": "machine-operator",
+      "career_title": "Machine Operator",
+      "category": "Manufacturing",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 58,
+      "career_slug": "mining-technician",
+      "career_title": "Mining Technician",
+      "category": "Mining",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 59,
+      "career_slug": "beauty-therapist",
+      "career_title": "Beauty Therapist",
+      "category": "Personal Services",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 60,
+      "career_slug": "hairdresser",
+      "career_title": "Hairdresser",
+      "category": "Personal Services",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 61,
+      "career_slug": "firefighter",
+      "career_title": "Firefighter",
+      "category": "Public Safety",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 62,
+      "career_slug": "security-officer",
+      "career_title": "Security Officer",
+      "category": "Public Safety",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 63,
+      "career_slug": "traffic-officer",
+      "career_title": "Traffic Officer",
+      "category": "Public Safety",
+      "expected_pathways": [
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 64,
+      "career_slug": "police-officer",
+      "career_title": "Police Officer",
+      "category": "Public Service",
+      "expected_pathways": [
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 65,
+      "career_slug": "retail-supervisor",
+      "career_title": "Retail Supervisor",
+      "category": "Retail",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 66,
+      "career_slug": "laboratory-technician",
+      "career_title": "Laboratory Technician",
+      "category": "Science",
+      "expected_pathways": [
+        "tvet",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 67,
+      "career_slug": "environmental-scientist",
+      "career_title": "Environmental Scientist",
+      "category": "Science & Environment",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 68,
+      "career_slug": "biomedical-scientist",
+      "career_title": "Biomedical Scientist",
+      "category": "Science & Health",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 69,
+      "career_slug": "ai-ml-specialist",
+      "career_title": "AI & Machine Learning Specialist",
+      "category": "Technology",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 70,
+      "career_slug": "cybersecurity-specialist",
+      "career_title": "Cybersecurity Specialist",
+      "category": "Technology",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 71,
+      "career_slug": "data-scientist",
+      "career_title": "Data Scientist",
+      "category": "Technology",
+      "expected_pathways": [
+        "university"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 72,
+      "career_slug": "it-support-technician",
+      "career_title": "IT Support Technician",
+      "category": "Technology",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 73,
+      "career_slug": "network-technician",
+      "career_title": "Network Technician",
+      "category": "Technology",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 74,
+      "career_slug": "software-developer",
+      "career_title": "Software Developer",
+      "category": "Technology",
+      "expected_pathways": [
+        "university",
+        "university_of_technology",
+        "occupational",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 75,
+      "career_slug": "tour-guide",
+      "career_title": "Tour Guide",
+      "category": "Tourism",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 76,
+      "career_slug": "boilermaker",
+      "career_title": "Boilermaker",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 77,
+      "career_slug": "bricklayer",
+      "career_title": "Bricklayer",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 78,
+      "career_slug": "carpenter",
+      "career_title": "Carpenter",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 79,
+      "career_slug": "diesel-mechanic",
+      "career_title": "Diesel Mechanic",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 80,
+      "career_slug": "electrician",
+      "career_title": "Electrician",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 81,
+      "career_slug": "fitter-turner",
+      "career_title": "Fitter and Turner",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 82,
+      "career_slug": "millwright",
+      "career_title": "Millwright",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 83,
+      "career_slug": "motor-mechanic",
+      "career_title": "Motor Mechanic",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 84,
+      "career_slug": "plumber",
+      "career_title": "Plumber",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 85,
+      "career_slug": "refrigeration-technician",
+      "career_title": "Refrigeration & Air-Conditioning Technician",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 86,
+      "career_slug": "welder",
+      "career_title": "Welder",
+      "category": "Trades",
+      "expected_pathways": [
+        "tvet",
+        "occupational",
+        "apprenticeship",
+        "self_employment"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 87,
+      "career_slug": "truck-driver",
+      "career_title": "Professional Truck Driver",
+      "category": "Transport",
+      "expected_pathways": [
+        "occupational",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    },
+    {
+      "number": 88,
+      "career_slug": "water-process-controller",
+      "career_title": "Water Process Controller",
+      "category": "Water & Environment",
+      "expected_pathways": [
+        "occupational",
+        "tvet",
+        "learnership"
+      ],
+      "status": "research_required",
+      "qualification": {
+        "title": null,
+        "type": null,
+        "saqa_id": null,
+        "nqf_level": null,
+        "credits": null,
+        "source_url": null
+      },
+      "provider": {
+        "institution_name": null,
+        "verification_status": null,
+        "official_source_url": null
+      },
+      "programme": {
+        "name": null,
+        "academic_year": null,
+        "programme_url": null,
+        "application_url": null
+      },
+      "requirements": {
+        "curriculum": null,
+        "aps": null,
+        "subjects": [],
+        "note": null
+      },
+      "verification": {
+        "qualification_verified": false,
+        "provider_verified": false,
+        "programme_verified": false,
+        "requirements_verified": false,
+        "checked_at": null,
+        "notes": null
+      }
+    }
+  ]
+}
