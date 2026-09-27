@@ -1,0 +1,215 @@
+{
+  "stage": "LP-3.3-FINAL12-OFFICIAL-RESOLUTION",
+  "as_of": "2026-09-27",
+
+  "policy": {
+    "official_sources_only": true,
+    "no_invented_programmes": true,
+    "no_invented_saqa_ids": true,
+    "expired_routes_are_lifecycle_not_current": true,
+    "related_routes_are_explicitly_marked": true
+  },
+
+  "careers": [
+
+    {
+      "career_slug": "banking-service-consultant",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "90843",
+      "qualification_title": "Higher Certificate in Banking Services",
+      "nqf_level": 5,
+      "credits": 120,
+      "registration_status": "Registered-data under construction",
+      "registration_start_date": "2024-07-01",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2028-06-30",
+      "last_achievement_date": "2030-06-30",
+      "relevance": "primary",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "digital-marketer",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "124145",
+      "qualification_title": "Higher Certificate in Digital Marketing and Social Media",
+      "provider": "Alpvest Institute for Future Tech (Pty) Ltd",
+      "nqf_level": 5,
+      "credits": 120,
+      "registration_status": "Registered",
+      "registration_start_date": "2025-04-17",
+      "registration_end_date": "2028-04-17",
+      "last_enrolment_date": "2029-04-17",
+      "last_achievement_date": "2032-04-17",
+      "relevance": "primary",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "forklift-operator",
+      "resolution": "verified_lifecycle_issue",
+      "research_status": "OFFICIAL_TRAINING_ROUTE_NO_STANDALONE_CURRENT_QUALIFICATION_CONFIRMED",
+      "route_type": "regulated_occupational_training",
+      "route_note": "Forklift operation remains an occupational competency/training route. No standalone current qualification sufficiently verified for LifePath in this research cycle.",
+      "learner_facing_current": false,
+      "source_authority": "South African occupational training framework"
+    },
+
+    {
+      "career_slug": "hotel-supervisor",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "100958",
+      "qualification_title": "Diploma in Hospitality Management",
+      "provider": "Tshwane University of Technology (TUT)",
+      "nqf_level": 6,
+      "credits": 360,
+      "registration_status": "Registered-data under construction",
+      "registration_start_date": "2024-07-01",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2027-06-30",
+      "last_achievement_date": "2029-06-30",
+      "relevance": "related",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "laboratory-technician",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "118466",
+      "qualification_title": "Bachelor of Health Sciences in Medical Laboratory Sciences",
+      "provider": "Mangosuthu University of Technology",
+      "nqf_level": 8,
+      "credits": 480,
+      "registration_status": "Reregistered",
+      "registration_start_date": "2021-07-01",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2028-06-30",
+      "last_achievement_date": "2034-06-30",
+      "relevance": "related",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "library-assistant",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "111835",
+      "qualification_title": "Diploma in Library and Information Studies",
+      "provider": "Durban University of Technology",
+      "nqf_level": 6,
+      "credits": 360,
+      "registration_status": "Reregistered",
+      "registration_start_date": "2019-09-03",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2028-06-30",
+      "last_achievement_date": "2033-06-30",
+      "relevance": "related",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "mechatronics-engineer",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "110933",
+      "qualification_title": "Bachelor of Engineering in Mechatronic Engineering",
+      "provider": "North West University",
+      "nqf_level": 8,
+      "credits": 480,
+      "registration_status": "Reregistered",
+      "registration_start_date": "2019-08-08",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2028-06-30",
+      "last_achievement_date": "2034-06-30",
+      "relevance": "primary",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "network-technician",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "97838",
+      "qualification_title": "Bachelor of Computer and Information Sciences in Network Engineering",
+      "provider": "The Independent Institute of Education (Pty) Ltd",
+      "nqf_level": 7,
+      "credits": 370,
+      "registration_status": "Registered-data under construction",
+      "registration_start_date": "2024-07-01",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2028-06-30",
+      "last_achievement_date": "2033-06-30",
+      "relevance": "related",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "painter-decorator",
+      "resolution": "verified_lifecycle_issue",
+      "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+      "saqa_id": "112832",
+      "qualification_title": "Occupational Certificate: Painter",
+      "nqf_level": 4,
+      "credits": 549,
+      "registration_status": "Passed the End Date",
+      "registration_start_date": "2019-12-05",
+      "registration_end_date": "2025-12-30",
+      "last_enrolment_date": "2026-12-30",
+      "last_achievement_date": "2029-12-30",
+      "relevance": "primary",
+      "source_authority": "SAQA",
+      "learner_facing_current": false
+    },
+
+    {
+      "career_slug": "pharmacist",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "8135",
+      "qualification_title": "Bachelor of Pharmacy",
+      "provider": "Rhodes University",
+      "nqf_level": 8,
+      "credits": 480,
+      "registration_status": "Registered-data under construction",
+      "registration_start_date": "2024-07-01",
+      "registration_end_date": "2027-06-30",
+      "last_enrolment_date": "2028-06-30",
+      "last_achievement_date": "2033-06-30",
+      "relevance": "primary",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "secretary",
+      "resolution": "verified_current",
+      "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+      "saqa_id": "100787",
+      "qualification_title": "Diploma in Office Management and Technology",
+      "relevance": "primary",
+      "source_authority": "SAQA",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "tiler",
+      "resolution": "verified_lifecycle_issue",
+      "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+      "route_note": "Official SAQA tiling competency/qualification history was identified, but a defensible current standalone replacement qualification was not confirmed. Keep visible as a valid career while current qualification replacement remains under lifecycle review.",
+      "source_authority": "SAQA",
+      "learner_facing_current": false
+    }
+
+  ]
+}

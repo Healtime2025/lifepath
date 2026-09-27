@@ -1,0 +1,811 @@
+﻿{
+    "version":  "LP-3.3-ALL88-TESTING",
+    "generated":  "2026-09-27",
+    "rules":  {
+                  "all_careers_visible":  true,
+                  "verified_badge_only_for_verified_routes":  true,
+                  "programme_data_only_when_verified":  true,
+                  "research_pending_is_not_accreditation":  true
+              },
+    "counts":  {
+                   "catalogue":  88,
+                   "importer_verified":  17,
+                   "existing_verified_pilots":  2,
+                   "research_tracked":  65,
+                   "research_gap":  4
+               },
+    "careers":  [
+                    {
+                        "career_slug":  "data-capturer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_GAP",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_PENDING",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "office-administrator",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_GAP",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_PENDING",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "personal-assistant",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_GAP",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_PENDING",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "receptionist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_GAP",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_PENDING",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "secretary",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "legal-secretary",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "agricultural-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "farmer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "horticulture-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "architect",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "quantity-surveyor",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "accountant",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "banking-service-consultant",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "bookkeeper",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "financial-adviser",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "logistics-coordinator",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "human-resources-administrator",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "social-worker",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "construction-supervisor",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "painter-decorator",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "tiler",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "digital-marketer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "graphic-designer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "photographer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "videographer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "ux-designer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "call-centre-agent",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "ecd-practitioner",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "teacher",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "library-assistant",
+                        "relevance":  "related",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "civil-engineer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "EXISTING_VERIFIED_PILOT",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED_PILOT",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "electrical-engineer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "industrial-engineer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "mechanical-engineer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "mechatronics-engineer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "instrumentation-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "solar-installer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "wind-turbine-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "dental-assistant",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "doctor",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "occupational-therapist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "paramedic",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "pharmacist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "physiotherapist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "professional-nurse",
+                        "relevance":  "primary",
+                        "catalogue_state":  "EXISTING_VERIFIED_PILOT",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED_PILOT",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "radiographer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "care-worker",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "community-health-worker",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "baker",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "chef",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "hotel-supervisor",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "lawyer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "IMPORT_READY",
+                        "availability":  "FULL_PATHWAY",
+                        "verification":  "VERIFIED",
+                        "show_programme":  true,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "paralegal",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "forklift-operator",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "warehouse-controller",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "cnc-machinist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "machine-operator",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "mining-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "beauty-therapist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "hairdresser",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "firefighter",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "security-officer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "traffic-officer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "police-officer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "retail-supervisor",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "laboratory-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "environmental-scientist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "biomedical-scientist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "ai-ml-specialist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "cybersecurity-specialist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "data-scientist",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "it-support-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "network-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "software-developer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "tour-guide",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "boilermaker",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "bricklayer",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "carpenter",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "diesel-mechanic",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "electrician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "fitter-turner",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "millwright",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "motor-mechanic",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "plumber",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "refrigeration-technician",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "welder",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "truck-driver",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    },
+                    {
+                        "career_slug":  "water-process-controller",
+                        "relevance":  "primary",
+                        "catalogue_state":  "RESEARCH_TRACKED",
+                        "availability":  "CAREER_AVAILABLE",
+                        "verification":  "ROUTE_RESEARCHED",
+                        "show_programme":  false,
+                        "learner_visible":  true
+                    }
+                ]
+}

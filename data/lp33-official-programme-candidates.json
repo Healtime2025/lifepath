@@ -1,0 +1,144 @@
+{
+  "stage": "LP-3.3-OFFICIAL-PROGRAMME-CANDIDATES",
+  "as_of": "2026-09-27",
+
+  "verification_policy": {
+    "official_provider_source_required": true,
+    "saqa_identity_required_before_master_qualification_import": true,
+    "do_not_invent_saqa_id": true,
+    "do_not_invent_provider": true,
+    "pending_allowed": true
+  },
+
+  "programmes": [
+
+    {
+      "career_slug": "doctor",
+      "relevance": "primary",
+      "provider": "University of Pretoria",
+      "provider_slug": "up",
+      "programme_title": "Bachelor of Medicine and Surgery",
+      "programme_abbreviation": "MBChB",
+      "programme_code": "10130004",
+      "academic_year": 2027,
+      "duration_years": 6,
+
+      "requirements": {
+        "english": 5,
+        "mathematics": 6,
+        "physical_sciences": 5,
+        "aps": 35
+      },
+
+      "provider_programme_verified": true,
+      "qualification_identity_status": "verification_pending",
+
+      "learner_facing_programme": true,
+
+      "source_authority": "University of Pretoria",
+      "source_type": "official_university"
+    },
+
+    {
+      "career_slug": "occupational-therapist",
+      "relevance": "primary",
+      "provider": "University of Pretoria",
+      "provider_slug": "up",
+      "programme_title": "Bachelor of Occupational Therapy",
+      "programme_abbreviation": "BOT",
+      "programme_code": "10138003",
+      "academic_year": 2027,
+      "duration_years": 4,
+
+      "requirements": {
+        "english": 4,
+        "mathematics": 4,
+        "physical_sciences": 4,
+        "aps": 30
+      },
+
+      "provider_programme_verified": true,
+      "qualification_identity_status": "verification_pending",
+
+      "learner_facing_programme": true,
+
+      "source_authority": "University of Pretoria",
+      "source_type": "official_university"
+    },
+
+    {
+      "career_slug": "logistics-coordinator",
+      "relevance": "primary",
+      "provider": "University of Pretoria",
+      "provider_slug": "up",
+      "programme_title": "Bachelor of Commerce specialising in Supply Chain Management",
+      "programme_abbreviation": "BCom",
+      "programme_code": "07130067",
+      "academic_year": 2027,
+
+      "requirements": {
+        "english": 5,
+        "mathematics": 4,
+        "aps": 30
+      },
+
+      "provider_programme_verified": true,
+      "qualification_identity_status": "verification_pending",
+
+      "learner_facing_programme": true,
+
+      "source_authority": "University of Pretoria",
+      "source_type": "official_university"
+    },
+
+    {
+      "career_slug": "human-resources-administrator",
+      "relevance": "primary",
+      "provider": "University of Pretoria",
+      "provider_slug": "up",
+      "programme_title": "Bachelor of Commerce specialising in Human Resource Management",
+      "programme_abbreviation": "BCom",
+      "programme_code": "07130144",
+      "academic_year": 2027,
+
+      "requirements": {
+        "english": 5,
+        "mathematics": 4,
+        "aps": 30
+      },
+
+      "provider_programme_verified": true,
+      "qualification_identity_status": "verification_pending",
+
+      "learner_facing_programme": true,
+
+      "source_authority": "University of Pretoria",
+      "source_type": "official_university"
+    },
+
+    {
+      "career_slug": "it-support-technician",
+      "relevance": "primary",
+      "saqa_id": "125108",
+      "qualification_title": "Higher Occupational Certificate: Computer Technician",
+      "nqf_level": 5,
+      "credits": 175,
+
+      "registration_status": "Registered",
+      "registration_start_date": "2025-11-13",
+      "registration_end_date": "2030-11-13",
+      "last_enrolment_date": "2031-11-13",
+      "last_achievement_date": "2034-11-13",
+
+      "provider_programme_verified": false,
+      "provider_status": "verification_pending",
+      "qualification_identity_status": "verified",
+
+      "learner_facing_qualification": true,
+
+      "source_authority": "SAQA",
+      "source_type": "official_qualification_register"
+    }
+
+  ]
+}

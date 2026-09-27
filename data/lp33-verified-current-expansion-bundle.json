@@ -1,0 +1,176 @@
+{
+    "stage":  "LP-3.3-CURRENT-EXPANSION",
+    "status":  "verified",
+    "verified_at":  "2026-09-27",
+    "source_policy":  "official_sources_only",
+    "pathways":  [
+                     {
+                         "career_slug":  "library-assistant",
+                         "provider":  {
+                                          "name":  "Durban University of Technology",
+                                          "website":  "https://www.dut.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Diploma in Library and Information Studies",
+                                               "qualification_type":  "Diploma (Min 360)",
+                                               "saqa_id":  "111835",
+                                               "nqf_level":  6,
+                                               "credits":  360,
+                                               "field":  "Communication Studies and Language",
+                                               "subfield":  "Information Studies",
+                                               "registration_status":  "Reregistered",
+                                               "registration_start_date":  "2019-09-03",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2028-06-30",
+                                               "last_achievement_date":  "2033-06-30",
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=111835"
+                                           },
+                         "programme":  {
+                                           "name":  "Diploma in Library and Information Studies",
+                                           "programme_code":  "DILISI",
+                                           "academic_year":  2026,
+                                           "duration":  "3 years",
+                                           "faculty":  "Faculty of Accounting and Informatics",
+                                           "source_url":  "https://www.dut.ac.za/wp-content/uploads/2025/06/Study-Opportunities-2026.pdf"
+                                       },
+                         "relevance":  "related"
+                     },
+                     {
+                         "career_slug":  "mechatronics-engineer",
+                         "provider":  {
+                                          "name":  "North-West University",
+                                          "website":  "https://www.nwu.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Bachelor of Engineering in Mechatronic Engineering",
+                                               "qualification_type":  "National First Degree(Min 480)",
+                                               "saqa_id":  "110933",
+                                               "nqf_level":  8,
+                                               "credits":  480,
+                                               "field":  "Manufacturing, Engineering and Technology",
+                                               "subfield":  "Engineering and Related Design",
+                                               "registration_status":  "Reregistered",
+                                               "registration_start_date":  "2019-08-08",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2028-06-30",
+                                               "last_achievement_date":  "2034-06-30",
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=110933"
+                                           },
+                         "programme":  {
+                                           "name":  "Bachelor of Engineering in Mechatronics Engineering",
+                                           "programme_code":  "7CR K02",
+                                           "academic_year":  2027,
+                                           "duration":  "4 years, full-time",
+                                           "faculty":  "Faculty of Engineering",
+                                           "source_url":  "https://studies.nwu.ac.za/undergraduate-studies/engineering-2027"
+                                       },
+                         "requirements":  {
+                                              "curriculum":  "NSC",
+                                              "english":  {
+                                                              "subject":  "English or Afrikaans Home Language or First Additional Language",
+                                                              "percentage":  60
+                                                          },
+                                              "mathematics":  {
+                                                                  "subject":  "Mathematics",
+                                                                  "percentage":  70
+                                                              },
+                                              "physical_sciences":  {
+                                                                        "subject":  "Physical Sciences",
+                                                                        "percentage":  70
+                                                                    },
+                                              "note":  "NWU published minimum Grade 12 subject requirements for Engineering for 2027."
+                                          }
+                     },
+                     {
+                         "career_slug":  "pharmacist",
+                         "provider":  {
+                                          "name":  "Rhodes University",
+                                          "website":  "https://www.ru.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Bachelor of Pharmacy",
+                                               "qualification_type":  "National First Degree",
+                                               "saqa_id":  "8135",
+                                               "nqf_level":  8,
+                                               "credits":  480,
+                                               "field":  "Health Sciences and Social Services",
+                                               "subfield":  "Promotive Health and Developmental Services",
+                                               "registration_status":  "Registered-data under construction",
+                                               "registration_start_date":  "2024-07-01",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2028-06-30",
+                                               "last_achievement_date":  "2033-06-30",
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=8135"
+                                           },
+                         "programme":  {
+                                           "name":  "Bachelor of Pharmacy",
+                                           "academic_year":  2026,
+                                           "duration":  "4 years",
+                                           "faculty":  "Faculty of Pharmacy",
+                                           "source_url":  "https://www.ru.ac.za/media/rhodesuniversity/content/registrar/rhodesuniversitytermdates2023/diary2026/Rhodes_Calendar_2026_web_file.pdf"
+                                       },
+                         "requirements":  {
+                                              "curriculum":  "NSC",
+                                              "mathematics":  {
+                                                                  "subject":  "Mathematics",
+                                                                  "achievement_level":  7
+                                                              },
+                                              "life_sciences":  {
+                                                                    "subject":  "Life Sciences",
+                                                                    "achievement_level":  7
+                                                                },
+                                              "physical_sciences":  {
+                                                                        "subject":  "Physical Sciences",
+                                                                        "achievement_level":  7
+                                                                    },
+                                              "note":  "Mathematical Literacy is not considered. Selection remains subject to available places."
+                                          }
+                     },
+                     {
+                         "career_slug":  "ux-designer",
+                         "relevance":  "related",
+                         "provider":  {
+                                          "name":  "Tshwane University of Technology",
+                                          "website":  "https://www.tut.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Diploma in Multimedia Computing",
+                                               "qualification_type":  "Diploma (Min 360)",
+                                               "saqa_id":  "111914",
+                                               "nqf_level":  6,
+                                               "credits":  360,
+                                               "field":  "Physical, Mathematical, Computer and Life Sciences",
+                                               "subfield":  "Information Technology and Computer Sciences",
+                                               "registration_status":  "Reregistered",
+                                               "registration_start_date":  "2019-09-03",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2028-06-30",
+                                               "last_achievement_date":  "2033-06-30",
+                                               "source_url":  "https://allqs.saqa.org.za/showQualification.php?id=111914"
+                                           },
+                         "programme":  {
+                                           "name":  "Diploma in Multimedia Computing",
+                                           "programme_code":  "DPMC20",
+                                           "academic_year":  2027,
+                                           "duration":  "3 years",
+                                           "faculty":  "Faculty of Information and Communication Technology",
+                                           "source_url":  "https://www.tut.ac.za/media/tshwane-interim/site-content/documents/2027-General-Information-for-First-Year-Enrolment.pdf"
+                                       },
+                         "requirements":  {
+                                              "curriculum":  "NSC",
+                                              "english":  {
+                                                              "subject":  "English Home Language or First Additional Language",
+                                                              "achievement_level":  4
+                                                          },
+                                              "note":  "TUT lists UI/UX designer among the possible careers. This LifePath pathway is therefore RELATED rather than a direct qualification named UX Design."
+                                          }
+                     }
+                 ],
+    "verification":  {
+                         "qualification_verified":  true,
+                         "lifecycle_verified":  true,
+                         "provider_verified":  true,
+                         "programme_verified":  true,
+                         "ready_for_import":  true
+                     }
+}

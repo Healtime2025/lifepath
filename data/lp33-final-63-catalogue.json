@@ -1,0 +1,1561 @@
+{
+  "stage": "LP-3.3-FINAL-63-RESEARCH-RESOLVED",
+  "as_of": "2026-09-27",
+  "policy": {
+    "official_sources_only": true,
+    "invented_data_forbidden": true,
+    "pending_is_valid_catalogue_state": true,
+    "pending_records_not_imported_as_verified": true,
+    "expired_records_not_presented_as_current": true
+  },
+  "summary": {
+    "total": 63,
+    "verified_current": 44,
+    "verified_lifecycle_issue": 19,
+    "verification_pending": 0
+  },
+  "careers": [
+    {
+      "career_slug": "accountant",
+      "lane": "higher_education_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "accountant",
+          "evidence_type": "official_programme",
+          "provider": "University of Pretoria",
+          "programme_title": "BCom in Accounting Sciences",
+          "programme_code": "07130045",
+          "academic_year": 2027,
+          "duration": "3 years",
+          "requirements": {
+            "english": 5,
+            "mathematics": 6,
+            "aps": 34
+          },
+          "source": "University of Pretoria",
+          "source_url": "https://www.up.ac.za/programmes/undergraduate/bcom-accounting-sciences/2027",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "agricultural-technician",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "agricultural-technician",
+          "research_status": "OFFICIAL_RELATED_ROUTE_FOUND",
+          "route_type": "higher_education",
+          "provider": "University of Pretoria",
+          "programme_title": "BScAgric in Applied Plant and Soil Sciences",
+          "programme_code": "02133426",
+          "academic_year": 2027,
+          "relevance": "related",
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_current": true,
+          "source_authority": "University of Pretoria"
+        }
+      ]
+    },
+    {
+      "career_slug": "ai-ml-specialist",
+      "lane": "higher_education",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "ai-ml-specialist",
+          "relevance": "related",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "BSc in Computer Science",
+          "programme_code": "12134002",
+          "academic_year": 2027,
+          "duration_years": 3,
+          "requirements": {
+            "english": 5,
+            "mathematics": 6,
+            "aps": 30
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "route_note": "Foundation route into advanced computer science and AI/ML study.",
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "architect",
+      "lane": "higher_education_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "architect",
+          "evidence_type": "official_programme",
+          "provider": "University of Pretoria",
+          "programme_title": "BSc in Architecture",
+          "programme_code": "12132031",
+          "academic_year": 2027,
+          "requirements": {
+            "english": 5,
+            "mathematics": 4,
+            "physical_sciences": 4,
+            "aps": 30
+          },
+          "source": "University of Pretoria",
+          "source_url": "https://www.up.ac.za/programmes/undergraduate/bsc-architecture/2027",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "baker",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "baker",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "121147",
+          "qualification_title": "Intermediate Occupational Certificate: Baking and Confectionery Operator",
+          "nqf_level": 3,
+          "credits": 123,
+          "registration_status": "Registered",
+          "registration_start_date": "2023-11-14",
+          "registration_end_date": "2028-11-14",
+          "last_enrolment_date": "2029-11-14",
+          "last_achievement_date": "2032-11-14",
+          "relevance": "related",
+          "provider_status": "verification_pending",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "banking-service-consultant",
+      "lane": "occupational_learnership",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "banking-service-consultant",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "banking-service-consultant",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "90843",
+          "qualification_title": "Higher Certificate in Banking Services",
+          "nqf_level": 5,
+          "credits": 120,
+          "registration_status": "Registered-data under construction",
+          "registration_start_date": "2024-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2030-06-30",
+          "relevance": "primary",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "beauty-therapist",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "beauty-therapist",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "121607",
+          "qualification_title": "National Occupational Certificate: Beauty Therapist",
+          "nqf_level": 4,
+          "credits": 158,
+          "registration_status": "Registered",
+          "registration_start_date": "2024-01-30",
+          "registration_end_date": "2029-01-30",
+          "last_enrolment_date": "2030-01-30",
+          "last_achievement_date": "2033-01-30",
+          "relevance": "primary",
+          "provider_status": "verification_pending",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "biomedical-scientist",
+      "lane": "higher_education_health",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "biomedical-scientist",
+          "research_status": "OFFICIAL_RELATED_ROUTE_FOUND",
+          "provider": "University of Pretoria",
+          "programme_title": "BSc in Human Physiology, Genetics and Psychology",
+          "programme_code": "02133396",
+          "academic_year": 2027,
+          "relevance": "related",
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_current": true,
+          "source_authority": "University of Pretoria"
+        }
+      ]
+    },
+    {
+      "career_slug": "bookkeeper",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "bookkeeper",
+          "evidence_type": "lifecycle_warning",
+          "saqa_id": "98959",
+          "qualification_title": "Occupational Certificate: Bookkeeper",
+          "nqf_level": 5,
+          "credits": 364,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "source": "SAQA",
+          "source_url": "https://allqs.saqa.org.za/showQualification.php?id=98959",
+          "learner_facing_current": false
+        }
+      ]
+    },
+    {
+      "career_slug": "call-centre-agent",
+      "lane": "occupational_learnership",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "call-centre-agent",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "route_note": "Official SAQA Contact Centre routes found, but searched records are legacy/passed-end-date routes. Current exact replacement still requires confirmation.",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "care-worker",
+      "lane": "occupational_health",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "care-worker",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "104792",
+          "qualification_title": "Occupational Certificate: Home Based Personal Care Worker",
+          "nqf_level": 3,
+          "credits": 135,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "relevance": "related",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "chef",
+      "lane": "occupational_trade_lifecycle",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "chef",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "route_note": "Previously identified Chef qualification requires current replacement/lifecycle resolution.",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "cnc-machinist",
+      "lane": "occupational_trade",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "cnc-machinist",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "57878",
+          "qualification_title": "National Certificate: CNC Production Machining",
+          "relevance": "primary",
+          "registration_status": "Passed the End Date",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "community-health-worker",
+      "lane": "occupational_health",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "community-health-worker",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "64769",
+          "qualification_title": "National Certificate: Community Health Work",
+          "nqf_level": 3,
+          "credits": 140,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2023-06-30",
+          "last_enrolment_date": "2024-06-30",
+          "last_achievement_date": "2027-06-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "construction-supervisor",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "construction-supervisor",
+          "evidence_type": "official_qualification",
+          "saqa_id": "126057",
+          "qualification_title": "National Occupational Certificate: Civil Road Construction Constructor",
+          "qualification_type": "National Occupational Certificate",
+          "nqf_level": 4,
+          "credits": 123,
+          "registration_status": "Registered",
+          "registration_start_date": "2026-06-02",
+          "registration_end_date": "2031-06-02",
+          "last_enrolment_date": "2032-06-02",
+          "last_achievement_date": "2035-06-02",
+          "provider_status": "pending",
+          "source": "SAQA",
+          "source_url": "https://regqs.saqa.org.za/showQualification.php?id=126057",
+          "learner_facing_current": true
+        },
+        {
+          "career_slug": "construction-supervisor",
+          "evidence_type": "official_qualification_related",
+          "saqa_id": "126058",
+          "qualification_title": "National Occupational Certificate: Civil Services Construction Constructor",
+          "qualification_type": "National Occupational Certificate",
+          "nqf_level": 4,
+          "credits": 120,
+          "registration_status": "Registered",
+          "registration_start_date": "2026-06-02",
+          "registration_end_date": "2031-06-02",
+          "last_enrolment_date": "2032-06-02",
+          "last_achievement_date": "2035-06-02",
+          "provider_status": "pending",
+          "source": "SAQA",
+          "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=126058",
+          "learner_facing_current": true
+        },
+        {
+          "career_slug": "construction-supervisor",
+          "evidence_type": "official_qualification_related",
+          "saqa_id": "126077",
+          "qualification_title": "National Occupational Certificate: Civil Structures Construction Constructor",
+          "qualification_type": "National Occupational Certificate",
+          "nqf_level": 4,
+          "credits": 126,
+          "registration_status": "Registered",
+          "registration_start_date": "2026-06-02",
+          "registration_end_date": "2031-06-02",
+          "last_enrolment_date": "2032-06-02",
+          "last_achievement_date": "2035-06-02",
+          "provider_status": "pending",
+          "source": "SAQA",
+          "source_url": "https://allqs.saqa.org.za/showQualification.php?id=126077",
+          "learner_facing_current": true
+        },
+        {
+          "career_slug": "construction-supervisor",
+          "evidence_type": "official_qualification_related",
+          "saqa_id": "126059",
+          "qualification_title": "Higher Occupational Certificate: Building Inspector",
+          "qualification_type": "Higher Occupational Certificate",
+          "nqf_level": 5,
+          "credits": 127,
+          "registration_status": "Registered",
+          "registration_start_date": "2026-06-02",
+          "registration_end_date": "2031-06-02",
+          "last_enrolment_date": "2032-06-02",
+          "last_achievement_date": "2035-06-02",
+          "provider_status": "pending",
+          "source": "SAQA",
+          "source_url": "https://allqs.saqa.org.za/showQualification.php?id=126059",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "cybersecurity-specialist",
+      "lane": "occupational_higher_education",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "cybersecurity-specialist",
+          "relevance": "primary",
+          "saqa_id": "122068",
+          "qualification_title": "Advanced Occupational Certificate: Cybersecurity Practitioner",
+          "qualification_type": "Advanced Occupational Certificate",
+          "nqf_level": 6,
+          "credits": 120,
+          "registration_status": "Registered",
+          "registration_start_date": "2024-01-30",
+          "registration_end_date": "2029-01-30",
+          "last_enrolment_date": "2030-01-30",
+          "last_achievement_date": "2033-01-30",
+          "qualification_identity_status": "verified",
+          "provider_status": "verification_pending",
+          "source_authority": "SAQA",
+          "source_type": "official_qualification_register",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "data-scientist",
+      "lane": "higher_education",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "data-scientist",
+          "relevance": "primary",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "BCom specialising in Statistics and Data Science",
+          "programme_code": "07130264",
+          "academic_year": 2027,
+          "duration_years": 3,
+          "requirements": {
+            "english": 5,
+            "mathematics": 5,
+            "aps": 32
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "dental-assistant",
+      "lane": "occupational_health",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "dental-assistant",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "97174",
+          "qualification_title": "Higher Certificate in Dental Assisting",
+          "provider": "Central University of Technology, Free State",
+          "nqf_level": 5,
+          "credits": 120,
+          "registration_status": "Registered",
+          "registration_start_date": "2024-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2031-06-30",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "digital-marketer",
+      "lane": "occupational_higher_education",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "digital-marketer",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "digital-marketer",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "124145",
+          "qualification_title": "Higher Certificate in Digital Marketing and Social Media",
+          "provider": "Alpvest Institute for Future Tech (Pty) Ltd",
+          "nqf_level": 5,
+          "credits": 120,
+          "registration_status": "Registered",
+          "registration_start_date": "2025-04-17",
+          "registration_end_date": "2028-04-17",
+          "last_enrolment_date": "2029-04-17",
+          "last_achievement_date": "2032-04-17",
+          "relevance": "primary",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "doctor",
+      "lane": "higher_education_health_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "doctor",
+          "relevance": "primary",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "Bachelor of Medicine and Surgery",
+          "programme_abbreviation": "MBChB",
+          "programme_code": "10130004",
+          "academic_year": 2027,
+          "duration_years": 6,
+          "requirements": {
+            "english": 5,
+            "mathematics": 6,
+            "physical_sciences": 5,
+            "aps": 35
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_programme": true,
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university"
+        }
+      ]
+    },
+    {
+      "career_slug": "ecd-practitioner",
+      "lane": "occupational_education",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "ecd-practitioner",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "97542",
+          "qualification_title": "Occupational Certificate: Early Childhood Development Practitioner",
+          "nq_level": 4,
+          "credits": 131,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "environmental-scientist",
+      "lane": "higher_education",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "environmental-scientist",
+          "research_status": "CURRENT_OFFICIAL_PROGRAMME_FOUND",
+          "provider": "University of Pretoria",
+          "programme_title": "BSc in Geography option Geography and Environmental Science",
+          "programme_code": "02133364",
+          "academic_year": 2027,
+          "requirements": {
+            "english": 5,
+            "mathematics": 5,
+            "physical_sciences": 5,
+            "aps": 34
+          },
+          "relevance": "primary",
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_current": true,
+          "source_authority": "University of Pretoria"
+        }
+      ]
+    },
+    {
+      "career_slug": "farmer",
+      "lane": "agriculture_multi_route",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "farmer",
+          "research_status": "CURRENT_OFFICIAL_PROGRAMME_FOUND",
+          "provider": "University of Pretoria",
+          "programme_title": "BScAgric in Applied Plant and Soil Sciences",
+          "programme_code": "02133426",
+          "academic_year": 2027,
+          "relevance": "related",
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_current": true,
+          "source_authority": "University of Pretoria"
+        }
+      ]
+    },
+    {
+      "career_slug": "financial-adviser",
+      "lane": "regulated_finance",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "financial-adviser",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "105026",
+          "qualification_title": "Occupational Certificate: Financial Advisor",
+          "nqf_level": 6,
+          "credits": 515,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "firefighter",
+      "lane": "occupational_public_safety",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "firefighter",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "98991",
+          "qualification_title": "Occupational Certificate: Firefighter",
+          "nqf_level": 4,
+          "credits": 149,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "forklift-operator",
+      "lane": "occupational",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "forklift-operator",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "route_note": "Official SAQA lifting-machine evidence located, but exact current standalone Forklift Operator qualification not confirmed in this pass.",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        },
+        {
+          "career_slug": "forklift-operator",
+          "resolution": "verified_lifecycle_issue",
+          "research_status": "OFFICIAL_TRAINING_ROUTE_NO_STANDALONE_CURRENT_QUALIFICATION_CONFIRMED",
+          "route_type": "regulated_occupational_training",
+          "route_note": "Forklift operation remains an occupational competency/training route. No standalone current qualification sufficiently verified for LifePath in this research cycle.",
+          "learner_facing_current": false,
+          "source_authority": "South African occupational training framework"
+        }
+      ]
+    },
+    {
+      "career_slug": "graphic-designer",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "graphic-designer",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "110863",
+          "qualification_title": "Diploma in Integrated Communication Design",
+          "provider": "Tshwane University of Technology (TUT)",
+          "nqf_level": 6,
+          "credits": 360,
+          "registration_status": "Reregistered",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2033-06-30",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "hairdresser",
+      "lane": "occupational_trade_lifecycle",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "hairdresser",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "102497",
+          "qualification_title": "Occupational Certificate: Hairdresser",
+          "nqf_level": 4,
+          "credits": 540,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "horticulture-technician",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "horticulture-technician",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "100983",
+          "qualification_title": "Diploma in Horticulture",
+          "provider": "Tshwane University of Technology (TUT)",
+          "nqf_level": 6,
+          "credits": 360,
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "hotel-supervisor",
+      "lane": "hospitality_multi_route",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "hotel-supervisor",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "hotel-supervisor",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "100958",
+          "qualification_title": "Diploma in Hospitality Management",
+          "provider": "Tshwane University of Technology (TUT)",
+          "nqf_level": 6,
+          "credits": 360,
+          "registration_status": "Registered-data under construction",
+          "registration_start_date": "2024-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2027-06-30",
+          "last_achievement_date": "2029-06-30",
+          "relevance": "related",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "human-resources-administrator",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "human-resources-administrator",
+          "relevance": "primary",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "Bachelor of Commerce specialising in Human Resource Management",
+          "programme_abbreviation": "BCom",
+          "programme_code": "07130144",
+          "academic_year": 2027,
+          "requirements": {
+            "english": 5,
+            "mathematics": 4,
+            "aps": 30
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_programme": true,
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university"
+        }
+      ]
+    },
+    {
+      "career_slug": "instrumentation-technician",
+      "lane": "trade_tvet",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "instrumentation-technician",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "94701",
+          "qualification_title": "Occupational Certificate: Instrument Mechanician",
+          "nqf_level": 5,
+          "credits": 469,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "relevance": "primary",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "it-support-technician",
+      "lane": "occupational_technology",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "it-support-technician",
+          "relevance": "primary",
+          "saqa_id": "125108",
+          "qualification_title": "Higher Occupational Certificate: Computer Technician",
+          "nqf_level": 5,
+          "credits": 175,
+          "registration_status": "Registered",
+          "registration_start_date": "2025-11-13",
+          "registration_end_date": "2030-11-13",
+          "last_enrolment_date": "2031-11-13",
+          "last_achievement_date": "2034-11-13",
+          "provider_programme_verified": false,
+          "provider_status": "verification_pending",
+          "qualification_identity_status": "verified",
+          "learner_facing_qualification": true,
+          "source_authority": "SAQA",
+          "source_type": "official_qualification_register"
+        }
+      ]
+    },
+    {
+      "career_slug": "laboratory-technician",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "laboratory-technician",
+          "research_status": "OFFICIAL_RELATED_ROUTE_FOUND",
+          "route_note": "Official medical laboratory science routes exist; exact technician-level route/provider linkage requires final matching.",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "laboratory-technician",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "118466",
+          "qualification_title": "Bachelor of Health Sciences in Medical Laboratory Sciences",
+          "provider": "Mangosuthu University of Technology",
+          "nqf_level": 8,
+          "credits": 480,
+          "registration_status": "Reregistered",
+          "registration_start_date": "2021-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2034-06-30",
+          "relevance": "related",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "legal-secretary",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "legal-secretary",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "66880",
+          "qualification_title": "National Certificate: N4 Legal Secretary",
+          "nqf_level": 5,
+          "credits": 60,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2023-06-30",
+          "last_enrolment_date": "2026-06-30",
+          "last_achievement_date": "2029-06-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "library-assistant",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "library-assistant",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "library-assistant",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "111835",
+          "qualification_title": "Diploma in Library and Information Studies",
+          "provider": "Durban University of Technology",
+          "nqf_level": 6,
+          "credits": 360,
+          "registration_status": "Reregistered",
+          "registration_start_date": "2019-09-03",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2033-06-30",
+          "relevance": "related",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "logistics-coordinator",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "logistics-coordinator",
+          "relevance": "primary",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "Bachelor of Commerce specialising in Supply Chain Management",
+          "programme_abbreviation": "BCom",
+          "programme_code": "07130067",
+          "academic_year": 2027,
+          "requirements": {
+            "english": 5,
+            "mathematics": 4,
+            "aps": 30
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_programme": true,
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university"
+        }
+      ]
+    },
+    {
+      "career_slug": "machine-operator",
+      "lane": "occupational",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "machine-operator",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "121149",
+          "qualification_title": "Intermediate Occupational Certificate: Food and Beverage Process Machine Operator",
+          "nqf_level": 3,
+          "credits": 123,
+          "registration_status": "Registered",
+          "registration_start_date": "2023-11-14",
+          "registration_end_date": "2028-11-14",
+          "last_enrolment_date": "2029-11-14",
+          "last_achievement_date": "2032-11-14",
+          "relevance": "related",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "mechatronics-engineer",
+      "lane": "higher_education_engineering",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "mechatronics-engineer",
+          "research_status": "OFFICIAL_RELATED_ROUTE_FOUND",
+          "route_note": "Official 2027 engineering evidence confirms Mechatronic Engineering as a recognised South African undergraduate field; exact UP programme/SAQA pairing still requires qualification-level confirmation.",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "mechatronics-engineer",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "110933",
+          "qualification_title": "Bachelor of Engineering in Mechatronic Engineering",
+          "provider": "North West University",
+          "nqf_level": 8,
+          "credits": 480,
+          "registration_status": "Reregistered",
+          "registration_start_date": "2019-08-08",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2034-06-30",
+          "relevance": "primary",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "mining-technician",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "mining-technician",
+          "evidence_type": "replacement_evidence",
+          "old_saqa_id": "94572",
+          "old_status": "Passed the End Date",
+          "replacement_saqa_id": "125102",
+          "replacement_title": "Intermediate Occupational Certificate: Mine Environmental Control Observer",
+          "replacement_nqf_level": 3,
+          "replacement_credits": 132,
+          "replacement_verification_status": "requires_full_lifecycle_verification",
+          "source": "SAQA",
+          "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=94572",
+          "learner_facing_current": false
+        }
+      ]
+    },
+    {
+      "career_slug": "network-technician",
+      "lane": "occupational_technology",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "network-technician",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "network-technician",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "97838",
+          "qualification_title": "Bachelor of Computer and Information Sciences in Network Engineering",
+          "provider": "The Independent Institute of Education (Pty) Ltd",
+          "nqf_level": 7,
+          "credits": 370,
+          "registration_status": "Registered-data under construction",
+          "registration_start_date": "2024-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2033-06-30",
+          "relevance": "related",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "occupational-therapist",
+      "lane": "higher_education_health_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "occupational-therapist",
+          "relevance": "primary",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "Bachelor of Occupational Therapy",
+          "programme_abbreviation": "BOT",
+          "programme_code": "10138003",
+          "academic_year": 2027,
+          "duration_years": 4,
+          "requirements": {
+            "english": 4,
+            "mathematics": 4,
+            "physical_sciences": 4,
+            "aps": 30
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "learner_facing_programme": true,
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university"
+        }
+      ]
+    },
+    {
+      "career_slug": "painter-decorator",
+      "lane": "occupational_trade",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "painter-decorator",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "painter-decorator",
+          "resolution": "verified_lifecycle_issue",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "112832",
+          "qualification_title": "Occupational Certificate: Painter",
+          "nqf_level": 4,
+          "credits": 549,
+          "registration_status": "Passed the End Date",
+          "registration_start_date": "2019-12-05",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "relevance": "primary",
+          "source_authority": "SAQA",
+          "learner_facing_current": false
+        }
+      ]
+    },
+    {
+      "career_slug": "paralegal",
+      "lane": "higher_education_tvet",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "paralegal",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "117325",
+          "qualification_title": "Occupational Certificate: Paralegal",
+          "nqf_level": 5,
+          "credits": 330,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-07-30",
+          "last_enrolment_date": "2026-07-30",
+          "last_achievement_date": "2029-07-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "paramedic",
+      "lane": "higher_education_health_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "paramedic",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "91791",
+          "qualification_title": "Bachelor of Emergency Medical Care",
+          "provider": "Nelson Mandela University",
+          "nqf_level": 8,
+          "credits": 480,
+          "registration_status": "Registered",
+          "registration_start_date": "2024-06-30",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2034-06-30",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "pharmacist",
+      "lane": "higher_education_health_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "pharmacist",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "pharmacist",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "8135",
+          "qualification_title": "Bachelor of Pharmacy",
+          "provider": "Rhodes University",
+          "nqf_level": 8,
+          "credits": 480,
+          "registration_status": "Registered-data under construction",
+          "registration_start_date": "2024-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2033-06-30",
+          "relevance": "primary",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "photographer",
+      "lane": "creative_multi_route",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "photographer",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "100992",
+          "qualification_title": "Diploma in Commercial Photography",
+          "provider": "Tshwane University of Technology (TUT)",
+          "nqf_level": 6,
+          "credits": 360,
+          "registration_status": "Registered-data under construction",
+          "registration_start_date": "2024-07-01",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2027-06-30",
+          "last_achievement_date": "2029-06-30",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "police-officer",
+      "lane": "public_service",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "police-officer",
+          "research_status": "CURRENT_OFFICIAL_CAREER_ROUTE_FOUND",
+          "route_type": "public_service",
+          "route_note": "SAPS official police-trainee route confirmed. Qualification/provider handling differs from ordinary university programme import.",
+          "provider": "South African Police Service",
+          "learner_facing_current": true,
+          "source_authority": "SAPS"
+        }
+      ]
+    },
+    {
+      "career_slug": "quantity-surveyor",
+      "lane": "higher_education_regulated",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "quantity-surveyor",
+          "evidence_type": "official_programme",
+          "provider": "University of Pretoria",
+          "programme_title": "BSc in Quantity Surveying",
+          "programme_code": "12132032",
+          "academic_year": 2027,
+          "duration": "3 years full-time",
+          "requirements": {
+            "english": 5,
+            "mathematics": 5,
+            "physical_sciences_or_accounting": 4,
+            "aps": 30
+          },
+          "source": "University of Pretoria",
+          "source_url": "https://www.up.ac.za/programmes/undergraduate/bsc-quantity-surveying/2027",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "retail-supervisor",
+      "lane": "occupational_learnership",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "retail-supervisor",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "121316",
+          "qualification_title": "National Occupational Certificate: Retail Supervisor",
+          "nqf_level": 4,
+          "credits": 129,
+          "registration_status": "Registered",
+          "registration_start_date": "2023-11-14",
+          "registration_end_date": "2028-11-14",
+          "last_enrolment_date": "2029-11-14",
+          "last_achievement_date": "2032-11-14",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "secretary",
+      "lane": "occupational_tvet",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "secretary",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "secretary",
+          "resolution": "verified_current",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "100787",
+          "qualification_title": "Diploma in Office Management and Technology",
+          "relevance": "primary",
+          "source_authority": "SAQA",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "security-officer",
+      "lane": "regulated_public_safety",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "security-officer",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "124934",
+          "qualification_title": "Intermediate Occupational Certificate: Security Officer",
+          "nqf_level": 3,
+          "credits": 131,
+          "registration_status": "Registered",
+          "registration_start_date": "2025-10-02",
+          "registration_end_date": "2030-10-02",
+          "last_enrolment_date": "2031-10-02",
+          "last_achievement_date": "2034-10-02",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "software-developer",
+      "lane": "technology_multi_route",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "software-developer",
+          "relevance": "primary",
+          "provider": "University of Pretoria",
+          "provider_slug": "up",
+          "programme_title": "BSc in Computer Science",
+          "programme_code": "12134002",
+          "academic_year": 2027,
+          "duration_years": 3,
+          "requirements": {
+            "english": 5,
+            "mathematics": 6,
+            "aps": 30
+          },
+          "provider_programme_verified": true,
+          "qualification_identity_status": "verification_pending",
+          "source_authority": "University of Pretoria",
+          "source_type": "official_university",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "solar-installer",
+      "lane": "occupational_green_economy",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "solar-installer",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "120883",
+          "qualification_title": "National Occupational Certificate: Solar Photovoltaic Standalone Systems Installer",
+          "nqf_level": 4,
+          "credits": 211,
+          "registration_status": "Registered",
+          "registration_start_date": "2023-05-30",
+          "registration_end_date": "2028-05-30",
+          "last_enrolment_date": "2029-05-30",
+          "last_achievement_date": "2032-05-30",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "tiler",
+      "lane": "occupational_trade",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "tiler",
+          "research_status": "OFFICIAL_ROUTE_REQUIRES_FURTHER_EXACT_MATCH",
+          "learner_facing_current": false
+        },
+        {
+          "career_slug": "tiler",
+          "resolution": "verified_lifecycle_issue",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "route_note": "Official SAQA tiling competency/qualification history was identified, but a defensible current standalone replacement qualification was not confirmed. Keep visible as a valid career while current qualification replacement remains under lifecycle review.",
+          "source_authority": "SAQA",
+          "learner_facing_current": false
+        }
+      ]
+    },
+    {
+      "career_slug": "tour-guide",
+      "lane": "regulated_tourism",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "tour-guide",
+          "research_status": "CURRENT_OFFICIAL_REGULATED_ROUTE_FOUND",
+          "route_type": "regulated_tourism",
+          "route_note": "Department of Tourism requires recognised tourist-guide training plus registration with the relevant Provincial Registrar and a valid recognised first-aid certificate.",
+          "provider_status": "accredited_provider_required",
+          "learner_facing_current": true,
+          "source_authority": "Department of Tourism"
+        }
+      ]
+    },
+    {
+      "career_slug": "traffic-officer",
+      "lane": "public_safety",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "traffic-officer",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "121688",
+          "qualification_title": "Occupational Diploma: Traffic Officer",
+          "nqf_level": 6,
+          "credits": 371,
+          "registration_status": "Registered",
+          "registration_start_date": "2024-01-30",
+          "registration_end_date": "2029-01-30",
+          "last_enrolment_date": "2030-01-30",
+          "last_achievement_date": "2033-01-30",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "truck-driver",
+      "lane": "occupational_transport",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "truck-driver",
+          "research_status": "CURRENT_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "122640",
+          "qualification_title": "Intermediate Occupational Certificate: Truck Driver",
+          "nqf_level": 3,
+          "credits": 120,
+          "registration_status": "Registered",
+          "registration_start_date": "2024-08-22",
+          "registration_end_date": "2029-08-22",
+          "last_enrolment_date": "2030-08-22",
+          "last_achievement_date": "2033-08-22",
+          "relevance": "primary",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "ux-designer",
+      "lane": "creative_technology",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "ux-designer",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "111914",
+          "qualification_title": "Diploma in Multimedia Computing",
+          "provider": "Tshwane University of Technology (TUT)",
+          "nqf_level": 6,
+          "credits": 360,
+          "registration_status": "Reregistered",
+          "registration_end_date": "2027-06-30",
+          "last_enrolment_date": "2028-06-30",
+          "last_achievement_date": "2033-06-30",
+          "relevance": "related",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "videographer",
+      "lane": "creative_multi_route",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "videographer",
+          "research_status": "CURRENT_RELATED_OFFICIAL_QUALIFICATION_FOUND",
+          "saqa_id": "100992",
+          "qualification_title": "Diploma in Commercial Photography",
+          "provider": "Tshwane University of Technology (TUT)",
+          "nqf_level": 6,
+          "credits": 360,
+          "relevance": "related",
+          "registration_status": "Registered-data under construction",
+          "registration_end_date": "2027-06-30",
+          "learner_facing_current": true,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "warehouse-controller",
+      "lane": "occupational_logistics",
+      "verification_status": "verified_current",
+      "evidence": [
+        {
+          "career_slug": "warehouse-controller",
+          "evidence_type": "official_qualification_related",
+          "saqa_id": "123403",
+          "qualification_title": "Intermediate Occupational Certificate: Road Freight Transport Clerk",
+          "qualification_type": "Intermediate Occupational Certificate",
+          "nqf_level": 3,
+          "credits": 120,
+          "registration_status": "Registered",
+          "registration_start_date": "2025-02-04",
+          "registration_end_date": "2030-02-04",
+          "last_enrolment_date": "2031-02-04",
+          "last_achievement_date": "2034-02-04",
+          "provider_status": "pending",
+          "source": "SAQA",
+          "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=123403",
+          "learner_facing_current": true
+        }
+      ]
+    },
+    {
+      "career_slug": "water-process-controller",
+      "lane": "occupational_water",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "water-process-controller",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "102255",
+          "qualification_title": "Occupational Certificate: Water Process Controller",
+          "nqf_level": 3,
+          "credits": 181,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-02-26",
+          "last_enrolment_date": "2026-02-26",
+          "last_achievement_date": "2029-02-26",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    },
+    {
+      "career_slug": "wind-turbine-technician",
+      "lane": "occupational_green_economy",
+      "verification_status": "verified_lifecycle_issue",
+      "evidence": [
+        {
+          "career_slug": "wind-turbine-technician",
+          "research_status": "LIFECYCLE_OR_REPLACEMENT_REVIEW",
+          "saqa_id": "99559",
+          "qualification_title": "Occupational Certificate: Wind Turbine Service Technician",
+          "nqf_level": 5,
+          "credits": 123,
+          "registration_status": "Passed the End Date",
+          "registration_end_date": "2025-12-30",
+          "last_enrolment_date": "2026-12-30",
+          "last_achievement_date": "2029-12-30",
+          "learner_facing_current": false,
+          "source_authority": "SAQA"
+        }
+      ]
+    }
+  ]
+}

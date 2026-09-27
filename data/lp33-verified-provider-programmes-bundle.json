@@ -1,0 +1,137 @@
+{
+  "stage": "LP-3.3-PROVIDER-PROGRAMMES",
+  "status": "verified",
+  "verified_at": "2026-09-27",
+  "source_policy": "official_sources_only",
+
+  "pathways": [
+    {
+      "career_slug": "dental-assistant",
+
+      "provider": {
+        "name": "Central University of Technology, Free State",
+        "website": "https://www.cut.ac.za/"
+      },
+
+      "qualification": {
+        "title": "Higher Certificate in Dental Assisting",
+        "qualification_type": "Higher Certificate",
+        "saqa_id": "97174",
+        "nqf_level": 5,
+        "credits": 120,
+        "field": "Health Sciences and Social Services",
+        "subfield": "Curative Health",
+        "registration_status": "Registered",
+        "registration_start_date": "2024-07-01",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2031-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=97174"
+      },
+
+      "programme": {
+        "name": "Higher Certificate in Dental Assisting",
+        "programme_code": "HLHCDL",
+        "academic_year": 2026,
+        "duration": "1 year full-time or 2 years part-time",
+        "faculty": "Faculty of Health and Environmental Sciences",
+        "source_url": "https://cms.cut.ac.za/Files/Froala/eb2a99cd-f346-42c9-9aae-3598ecd7dfab.pdf"
+      }
+    },
+
+    {
+      "career_slug": "horticulture-technician",
+
+      "provider": {
+        "name": "Tshwane University of Technology",
+        "website": "https://www.tut.ac.za/"
+      },
+
+      "qualification": {
+        "title": "Diploma in Horticulture",
+        "qualification_type": "Diploma (Min 360)",
+        "saqa_id": "100983",
+        "nqf_level": 6,
+        "credits": 360,
+        "field": "Agriculture and Nature Conservation",
+        "subfield": "Horticulture",
+        "registration_status": "Registered-data under construction",
+        "registration_start_date": "2024-07-01",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2027-06-30",
+        "last_achievement_date": "2029-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=100983"
+      },
+
+      "programme": {
+        "name": "Diploma in Horticulture",
+        "programme_code": "DPHO20",
+        "academic_year": 2026,
+        "duration": "3 years, full-time",
+        "faculty": "Faculty of Science",
+        "source_url": "https://www.tut.ac.za/media/tshwane-interim/site-content/images/prospectus/Part8_Science.pdf"
+      },
+
+      "requirements": {
+        "curriculum": "NSC",
+        "english": {
+          "subject": "English Home Language or English First Additional Language",
+          "achievement_level": 4
+        },
+        "aps": 25,
+        "note": "APS 25 with Mathematics or Technical Mathematics; APS 26 with Mathematical Literacy. Additional subject requirements apply."
+      }
+    },
+
+    {
+      "career_slug": "hotel-supervisor",
+
+      "provider": {
+        "name": "Tshwane University of Technology",
+        "website": "https://www.tut.ac.za/"
+      },
+
+      "qualification": {
+        "title": "Diploma in Hospitality Management",
+        "qualification_type": "Diploma (Min 360)",
+        "saqa_id": "100958",
+        "nqf_level": 6,
+        "credits": 360,
+        "field": "Services",
+        "subfield": "Hospitality, Tourism, Travel, Gaming and Leisure",
+        "registration_status": "Registered-data under construction",
+        "registration_start_date": "2024-07-01",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2027-06-30",
+        "last_achievement_date": "2029-06-30",
+        "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=100958"
+      },
+
+      "programme": {
+        "name": "Diploma in Hospitality Management",
+        "programme_code": "DPHM19",
+        "academic_year": 2026,
+        "duration": "3 years, full-time",
+        "faculty": "Faculty of Management Sciences",
+        "source_url": "https://www.tut.ac.za/media/tshwane-interim/site-content/images/prospectus/Part7_Management-Sciences_Prospectus.pdf"
+      },
+
+      "requirements": {
+        "curriculum": "NSC",
+        "english": {
+          "subject": "English Home Language or English First Additional Language",
+          "achievement_level": 3
+        },
+        "note": "TUT also requires Mathematics, Technical Mathematics or Mathematical Literacy at achievement level 3."
+      }
+    }
+  ],
+
+  "verification": {
+    "qualification_verified": true,
+    "lifecycle_verified": true,
+    "provider_verified": true,
+    "programme_verified": true,
+    "ready_for_import": true
+  }
+}

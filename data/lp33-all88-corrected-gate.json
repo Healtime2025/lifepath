@@ -1,0 +1,464 @@
+{
+    "stage":  "LP-3.3-ALL88-CORRECTED-GATE",
+    "as_of":  "2026-09-27",
+    "source_of_truth":  {
+                            "importer":  "scripts/lp33-master-import.ts",
+                            "importer_ready_count":  17,
+                            "unique_importer_careers":  17,
+                            "unique_saqa_qualifications":  17
+                        },
+    "rules":  {
+                  "importer_is_source_of_truth":  true,
+                  "research_does_not_equal_import_ready":  true,
+                  "no_invented_provider_status":  true,
+                  "no_invented_lifecycle_status":  true,
+                  "no_neon_writes":  true
+              },
+    "total_careers":  88,
+    "importer_ready":  17,
+    "existing_verified_pilots":  2,
+    "research_tracked":  65,
+    "research_gap":  4,
+    "careers":  [
+                    {
+                        "career_slug":  "data-capturer",
+                        "state":  "RESEARCH_GAP",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "office-administrator",
+                        "state":  "RESEARCH_GAP",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "personal-assistant",
+                        "state":  "RESEARCH_GAP",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "receptionist",
+                        "state":  "RESEARCH_GAP",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "secretary",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "legal-secretary",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "agricultural-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "farmer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "horticulture-technician",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "architect",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "quantity-surveyor",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "accountant",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "banking-service-consultant",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "bookkeeper",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "financial-adviser",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "logistics-coordinator",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "human-resources-administrator",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "social-worker",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "construction-supervisor",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "painter-decorator",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "tiler",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "digital-marketer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "graphic-designer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "photographer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "videographer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "ux-designer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "call-centre-agent",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "ecd-practitioner",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "teacher",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "library-assistant",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "related"
+                    },
+                    {
+                        "career_slug":  "civil-engineer",
+                        "state":  "EXISTING_VERIFIED_PILOT",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "electrical-engineer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "industrial-engineer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "mechanical-engineer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "mechatronics-engineer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "instrumentation-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "solar-installer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "wind-turbine-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "dental-assistant",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "doctor",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "occupational-therapist",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "paramedic",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "pharmacist",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "physiotherapist",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "professional-nurse",
+                        "state":  "EXISTING_VERIFIED_PILOT",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "radiographer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "care-worker",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "community-health-worker",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "baker",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "chef",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "hotel-supervisor",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "lawyer",
+                        "state":  "IMPORT_READY",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "paralegal",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "forklift-operator",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "warehouse-controller",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "cnc-machinist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "machine-operator",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "mining-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "beauty-therapist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "hairdresser",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "firefighter",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "security-officer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "traffic-officer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "police-officer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "retail-supervisor",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "laboratory-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "environmental-scientist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "biomedical-scientist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "ai-ml-specialist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "cybersecurity-specialist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "data-scientist",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "it-support-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "network-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "software-developer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "tour-guide",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "boilermaker",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "bricklayer",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "carpenter",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "diesel-mechanic",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "electrician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "fitter-turner",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "millwright",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "motor-mechanic",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "plumber",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "refrigeration-technician",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "welder",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "truck-driver",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    },
+                    {
+                        "career_slug":  "water-process-controller",
+                        "state":  "RESEARCH_TRACKED",
+                        "relevance":  "primary"
+                    }
+                ]
+}

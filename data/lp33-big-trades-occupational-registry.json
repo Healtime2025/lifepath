@@ -1,0 +1,189 @@
+{
+  "stage": "LP-3.3-BIG-DATA",
+  "verified_at": "2026-09-26",
+  "policy": {
+    "official_sources_only": true,
+    "qualification_verification_is_not_provider_verification": true,
+    "do_not_create_unverified_programmes": true,
+    "expired_qualifications_not_presented_as_current": true
+  },
+
+  "official_sources": {
+    "qcto_trade_register": "https://www.qcto.org.za/assets/ListofTtades.pdf",
+    "saqa_register": "https://regqs.saqa.org.za/"
+  },
+
+  "routes": [
+    {
+      "career_slug": "electrician",
+      "occupation": "Electrician",
+      "ofo_code": "671101",
+      "saqa_id": "91761",
+      "qualification_title": "Occupational Certificate: Electrician",
+      "nqf_level": 4,
+      "credits": 360,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "millwright",
+      "occupation": "Millwright",
+      "ofo_code": "671202",
+      "saqa_id": "97585",
+      "qualification_title": "Occupational Certificate: Millwright",
+      "nqf_level": 4,
+      "credits": 697,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "welder",
+      "occupation": "Welder",
+      "ofo_code": "651202",
+      "saqa_id": "94100",
+      "qualification_title": "Occupational Certificate: Welder",
+      "nqf_level": 4,
+      "credits": 373,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "fitter-turner",
+      "occupation": "Fitter and Turner",
+      "ofo_code": "652302",
+      "saqa_id": "94020",
+      "qualification_title": "Occupational Certificate: Fitter and Turner",
+      "nqf_level": 4,
+      "credits": 548,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "motor-mechanic",
+      "occupation": "Automotive Motor Mechanic",
+      "ofo_code": "653101",
+      "saqa_id": "118733",
+      "qualification_title": "Occupational Certificate: Automotive Motor Mechanic",
+      "nqf_level": 4,
+      "credits": 540,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "diesel-mechanic",
+      "occupation": "Diesel Mechanic",
+      "ofo_code": "653306",
+      "saqa_id": "97592",
+      "qualification_title": "Occupational Certificate: Diesel Mechanic",
+      "nqf_level": 4,
+      "credits": 540,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "transition_provider_pending"
+    },
+    {
+      "career_slug": "refrigeration-technician",
+      "occupation": "Refrigeration Mechanic",
+      "ofo_code": "642702",
+      "saqa_id": "103270",
+      "qualification_title": "Occupational Certificate: Refrigeration Mechanic",
+      "nqf_level": 4,
+      "credits": 543,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "bricklayer",
+      "occupation": "Bricklayer",
+      "ofo_code": "641201",
+      "saqa_id": "93627",
+      "qualification_title": "Occupational Certificate: Bricklayer",
+      "nqf_level": 4,
+      "credits": 361,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+    {
+      "career_slug": "carpenter",
+      "occupation": "Carpenter",
+      "ofo_code": "641502",
+      "saqa_id": "94022",
+      "qualification_title": "Occupational Certificate: Carpenter",
+      "nqf_level": 4,
+      "credits": 360,
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "QCTO",
+      "status": "qualification_verified_provider_pending"
+    },
+
+    {
+      "career_slug": "plumber",
+      "occupation": "Plumber",
+      "ofo_code": "642601",
+      "saqa_id": "124445",
+      "qualification_title": "National Occupational Certificate: Plumber",
+      "qualification_type": "National Occupational Certificate",
+      "field": "Physical Planning and Construction",
+      "subfield": "Building Construction",
+      "nqf_level": 4,
+      "credits": 395,
+      "registration_status": "Registered",
+      "registration_start_date": "2025-06-03",
+      "registration_end_date": "2030-06-03",
+      "last_enrolment_date": "2031-06-03",
+      "last_achievement_date": "2034-06-03",
+      "route_type": "trade_apprenticeship",
+      "qualification_source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=124445",
+      "status": "current_qualification_verified_provider_pending"
+    },
+
+    {
+      "career_slug": "boilermaker",
+      "occupation": "Boilermaker",
+      "ofo_code": "651302",
+      "saqa_id": "123381",
+      "qualification_title": "National Occupational Certificate: Boilermaker",
+      "qualification_type": "National Occupational Certificate",
+      "field": "Manufacturing, Engineering and Technology",
+      "subfield": "Manufacturing and Assembly",
+      "nqf_level": 4,
+      "credits": 540,
+      "registration_status": "Registered",
+      "registration_start_date": "2025-02-04",
+      "registration_end_date": "2030-02-04",
+      "last_enrolment_date": "2031-02-04",
+      "last_achievement_date": "2034-02-04",
+      "route_type": "trade_apprenticeship",
+      "entry_requirement": "NQF Level 1 qualification with Mathematics",
+      "qualification_source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=123381",
+      "status": "current_qualification_verified_provider_pending"
+    }
+  ],
+
+  "deferred_lifecycle_review": [
+    {
+      "career_slug": "hairdresser",
+      "saqa_id": "102497",
+      "reason": "SAQA shows qualification past registration end date; current replacement pathway must be established before learner-facing verification."
+    },
+    {
+      "career_slug": "chef",
+      "saqa_id": "101697",
+      "reason": "Qualification identity is supported by QCTO, but current lifecycle/provider route requires separate verification before learner-facing programme creation."
+    },
+    {
+      "career_slug": "diesel-mechanic",
+      "saqa_id": "117237",
+      "reason": "Replacement qualification also shows passed registration end date; do not represent it as a new current enrolment route without current QCTO/provider evidence."
+    }
+  ]
+}

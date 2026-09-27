@@ -1,0 +1,211 @@
+{
+  "stage": "LP-3.3-FINAL-OFFICIAL-EVIDENCE",
+  "as_of": "2026-09-27",
+  "rules": {
+    "official_sources_only": true,
+    "expired_is_not_current": true,
+    "qualification_provider_programme_verified_separately": true,
+    "pending_is_allowed": true,
+    "invented_data_forbidden": true
+  },
+
+  "fresh_official_findings": [
+
+    {
+      "career_slug": "architect",
+      "evidence_type": "official_programme",
+      "provider": "University of Pretoria",
+      "programme_title": "BSc in Architecture",
+      "programme_code": "12132031",
+      "academic_year": 2027,
+      "requirements": {
+        "english": 5,
+        "mathematics": 4,
+        "physical_sciences": 4,
+        "aps": 30
+      },
+      "source": "University of Pretoria",
+      "source_url": "https://www.up.ac.za/programmes/undergraduate/bsc-architecture/2027",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "quantity-surveyor",
+      "evidence_type": "official_programme",
+      "provider": "University of Pretoria",
+      "programme_title": "BSc in Quantity Surveying",
+      "programme_code": "12132032",
+      "academic_year": 2027,
+      "duration": "3 years full-time",
+      "requirements": {
+        "english": 5,
+        "mathematics": 5,
+        "physical_sciences_or_accounting": 4,
+        "aps": 30
+      },
+      "source": "University of Pretoria",
+      "source_url": "https://www.up.ac.za/programmes/undergraduate/bsc-quantity-surveying/2027",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "accountant",
+      "evidence_type": "official_programme",
+      "provider": "University of Pretoria",
+      "programme_title": "BCom in Accounting Sciences",
+      "programme_code": "07130045",
+      "academic_year": 2027,
+      "duration": "3 years",
+      "requirements": {
+        "english": 5,
+        "mathematics": 6,
+        "aps": 34
+      },
+      "source": "University of Pretoria",
+      "source_url": "https://www.up.ac.za/programmes/undergraduate/bcom-accounting-sciences/2027",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "construction-supervisor",
+      "evidence_type": "official_qualification",
+      "saqa_id": "126057",
+      "qualification_title": "National Occupational Certificate: Civil Road Construction Constructor",
+      "qualification_type": "National Occupational Certificate",
+      "nqf_level": 4,
+      "credits": 123,
+      "registration_status": "Registered",
+      "registration_start_date": "2026-06-02",
+      "registration_end_date": "2031-06-02",
+      "last_enrolment_date": "2032-06-02",
+      "last_achievement_date": "2035-06-02",
+      "provider_status": "pending",
+      "source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/showQualification.php?id=126057",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "construction-supervisor",
+      "evidence_type": "official_qualification_related",
+      "saqa_id": "126058",
+      "qualification_title": "National Occupational Certificate: Civil Services Construction Constructor",
+      "qualification_type": "National Occupational Certificate",
+      "nqf_level": 4,
+      "credits": 120,
+      "registration_status": "Registered",
+      "registration_start_date": "2026-06-02",
+      "registration_end_date": "2031-06-02",
+      "last_enrolment_date": "2032-06-02",
+      "last_achievement_date": "2035-06-02",
+      "provider_status": "pending",
+      "source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=126058",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "construction-supervisor",
+      "evidence_type": "official_qualification_related",
+      "saqa_id": "126077",
+      "qualification_title": "National Occupational Certificate: Civil Structures Construction Constructor",
+      "qualification_type": "National Occupational Certificate",
+      "nqf_level": 4,
+      "credits": 126,
+      "registration_status": "Registered",
+      "registration_start_date": "2026-06-02",
+      "registration_end_date": "2031-06-02",
+      "last_enrolment_date": "2032-06-02",
+      "last_achievement_date": "2035-06-02",
+      "provider_status": "pending",
+      "source": "SAQA",
+      "source_url": "https://allqs.saqa.org.za/showQualification.php?id=126077",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "construction-supervisor",
+      "evidence_type": "official_qualification_related",
+      "saqa_id": "126059",
+      "qualification_title": "Higher Occupational Certificate: Building Inspector",
+      "qualification_type": "Higher Occupational Certificate",
+      "nqf_level": 5,
+      "credits": 127,
+      "registration_status": "Registered",
+      "registration_start_date": "2026-06-02",
+      "registration_end_date": "2031-06-02",
+      "last_enrolment_date": "2032-06-02",
+      "last_achievement_date": "2035-06-02",
+      "provider_status": "pending",
+      "source": "SAQA",
+      "source_url": "https://allqs.saqa.org.za/showQualification.php?id=126059",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "warehouse-controller",
+      "evidence_type": "official_qualification_related",
+      "saqa_id": "123403",
+      "qualification_title": "Intermediate Occupational Certificate: Road Freight Transport Clerk",
+      "qualification_type": "Intermediate Occupational Certificate",
+      "nqf_level": 3,
+      "credits": 120,
+      "registration_status": "Registered",
+      "registration_start_date": "2025-02-04",
+      "registration_end_date": "2030-02-04",
+      "last_enrolment_date": "2031-02-04",
+      "last_achievement_date": "2034-02-04",
+      "provider_status": "pending",
+      "source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=123403",
+      "learner_facing_current": true
+    },
+
+    {
+      "career_slug": "welder",
+      "evidence_type": "lifecycle_warning",
+      "saqa_id": "94100",
+      "qualification_title": "Occupational Certificate: Welder",
+      "nqf_level": 4,
+      "credits": 373,
+      "registration_status": "Passed the End Date",
+      "registration_end_date": "2025-12-30",
+      "last_enrolment_date": "2026-12-30",
+      "last_achievement_date": "2029-12-30",
+      "source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=94100",
+      "learner_facing_current": false
+    },
+
+    {
+      "career_slug": "bookkeeper",
+      "evidence_type": "lifecycle_warning",
+      "saqa_id": "98959",
+      "qualification_title": "Occupational Certificate: Bookkeeper",
+      "nqf_level": 5,
+      "credits": 364,
+      "registration_status": "Passed the End Date",
+      "registration_end_date": "2025-12-30",
+      "last_enrolment_date": "2026-12-30",
+      "last_achievement_date": "2029-12-30",
+      "source": "SAQA",
+      "source_url": "https://allqs.saqa.org.za/showQualification.php?id=98959",
+      "learner_facing_current": false
+    },
+
+    {
+      "career_slug": "mining-technician",
+      "evidence_type": "replacement_evidence",
+      "old_saqa_id": "94572",
+      "old_status": "Passed the End Date",
+      "replacement_saqa_id": "125102",
+      "replacement_title": "Intermediate Occupational Certificate: Mine Environmental Control Observer",
+      "replacement_nqf_level": 3,
+      "replacement_credits": 132,
+      "replacement_verification_status": "requires_full_lifecycle_verification",
+      "source": "SAQA",
+      "source_url": "https://regqs.saqa.org.za/viewQualification.php?id=94572",
+      "learner_facing_current": false
+    }
+  ]
+}

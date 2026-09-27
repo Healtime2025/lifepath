@@ -1,0 +1,111 @@
+{
+  "stage": "LP-3.3-OFFICIAL-EXPANSION-02",
+  "status": "verified",
+  "verified_at": "2026-09-27",
+  "source_policy": "official_sources_only",
+
+  "pathways": [
+    {
+      "career_slug": "occupational-therapist",
+      "relevance": "primary",
+
+      "provider": {
+        "name": "University of Pretoria",
+        "slug": "up",
+        "website": "https://www.up.ac.za/"
+      },
+
+      "qualification": {
+        "title": "Bachelor of Occupational Therapy",
+        "qualification_type": "National First Degree(Min 480)",
+        "saqa_id": "6065",
+        "nqf_level": 8,
+        "credits": 480,
+        "field": "Health Sciences and Social Services",
+        "subfield": "Rehabilitative Health/Services",
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-06-30",
+        "registration_end_date": "2027-06-30",
+        "last_enrolment_date": "2028-06-30",
+        "last_achievement_date": "2034-06-30",
+        "source_url": "https://allqs.saqa.org.za/showQualification.php?id=6065"
+      },
+
+      "programme": {
+        "name": "Bachelor of Occupational Therapy",
+        "programme_code": "10138003",
+        "academic_year": 2027,
+        "duration": "4 years",
+        "faculty": "Faculty of Health Sciences",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/bachelor-of-occupational-therapy-bot/2027"
+      },
+
+      "requirements": {
+        "curriculum": "NSC/IEB",
+        "english": {
+          "achievement_level": 4
+        },
+        "mathematics": {
+          "achievement_level": 4
+        },
+        "physical_sciences": {
+          "achievement_level": 4
+        },
+        "aps": 30
+      }
+    },
+
+    {
+      "career_slug": "logistics-coordinator",
+      "relevance": "primary",
+
+      "provider": {
+        "name": "University of Pretoria",
+        "slug": "up",
+        "website": "https://www.up.ac.za/"
+      },
+
+      "qualification": {
+        "title": "Bachelor of Commerce",
+        "qualification_type": "National First Degree",
+        "saqa_id": "7027",
+        "nqf_level": 7,
+        "credits": 360,
+        "field": "Business, Commerce and Management Studies",
+        "subfield": "Generic Management",
+        "registration_status": "Reregistered",
+        "registration_start_date": "2024-11-21",
+        "registration_end_date": "2027-06-30",
+        "source_url": "https://allqs.saqa.org.za/showQualification.php?id=7027"
+      },
+
+      "programme": {
+        "name": "BCom specialising in Supply Chain Management",
+        "programme_code": "07130067",
+        "academic_year": 2027,
+        "duration": "3 years",
+        "faculty": "Faculty of Economic and Management Sciences",
+        "source_url": "https://www.up.ac.za/programmes/undergraduate/bcom-specialising-supply-chain-management/2027"
+      },
+
+      "requirements": {
+        "curriculum": "NSC/IEB",
+        "english": {
+          "achievement_level": 5
+        },
+        "mathematics": {
+          "achievement_level": 4
+        },
+        "aps": 30
+      }
+    }
+  ],
+
+  "verification": {
+    "qualification_verified": true,
+    "lifecycle_verified": true,
+    "provider_verified": true,
+    "programme_verified": true,
+    "ready_for_import": true
+  }
+}
