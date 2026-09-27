@@ -1,0 +1,122 @@
+﻿{
+    "stage":  "LP3.4W",
+    "status":  "clean_preimport_payload",
+    "neon_write":  false,
+    "pathways":  [
+                     {
+                         "career_slug":  "graphic-designer",
+                         "provider":  {
+                                          "name":  "Tshwane University of Technology",
+                                          "website":  "https://www.tut.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Diploma in Integrated Communication Design",
+                                               "qualification_type":  "Diploma (Min 360)",
+                                               "saqa_id":  "110863",
+                                               "nqf_level":  6,
+                                               "credits":  360,
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=110863",
+                                               "registration_status":  "Reregistered",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2028-06-30",
+                                               "last_achievement_date":  "2033-06-30"
+                                           },
+                         "programme":  {
+                                           "name":  "Diploma in Integrated Communication Design",
+                                           "academic_year":  2027,
+                                           "source_url":  "https://www.tut.ac.za/arts-and-design/integrated-communication-design/",
+                                           "requirements":  {
+
+                                                            }
+                                       },
+                         "relevance":  "primary"
+                     },
+                     {
+                         "career_slug":  "paramedic",
+                         "provider":  {
+                                          "name":  "Nelson Mandela University",
+                                          "website":  "https://www.mandela.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Bachelor of Emergency Medical Care",
+                                               "qualification_type":  "Bachelor Degree",
+                                               "saqa_id":  "91791",
+                                               "nqf_level":  8,
+                                               "credits":  480,
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=91791",
+                                               "registration_status":  "Registered",
+                                               "registration_start_date":  "2024-06-30",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2028-06-30",
+                                               "last_achievement_date":  "2034-06-30"
+                                           },
+                         "programme":  {
+                                           "name":  "Bachelor of Emergency Medical Care",
+                                           "academic_year":  2027,
+                                           "source_url":  "https://www.mandela.ac.za/getmedia/46f151c1-cca4-4b57-901b-8b09d95f4d85/Prospectus-Health-Sciences?disposition=attachment",
+                                           "requirements":  {
+
+                                                            }
+                                       },
+                         "relevance":  "primary"
+                     },
+                     {
+                         "career_slug":  "photographer",
+                         "provider":  {
+                                          "name":  "Tshwane University of Technology",
+                                          "website":  "https://www.tut.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Diploma in Commercial Photography",
+                                               "qualification_type":  "Diploma (Min 360)",
+                                               "saqa_id":  "100992",
+                                               "nqf_level":  6,
+                                               "credits":  360,
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=100992",
+                                               "registration_status":  "Registered-data under construction",
+                                               "registration_start_date":  "2024-07-01",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2027-06-30",
+                                               "last_achievement_date":  "2029-06-30"
+                                           },
+                         "programme":  {
+                                           "name":  "Diploma in Commercial Photography",
+                                           "academic_year":  2027,
+                                           "source_url":  "https://www.tut.ac.za/arts-and-design/commercial-photography/",
+                                           "requirements":  {
+
+                                                            }
+                                       },
+                         "relevance":  "primary"
+                     },
+                     {
+                         "career_slug":  "videographer",
+                         "provider":  {
+                                          "name":  "Tshwane University of Technology",
+                                          "website":  "https://www.tut.ac.za/"
+                                      },
+                         "qualification":  {
+                                               "title":  "Diploma in Commercial Photography",
+                                               "qualification_type":  "Diploma (Min 360)",
+                                               "saqa_id":  "100992",
+                                               "nqf_level":  6,
+                                               "credits":  360,
+                                               "source_url":  "https://regqs.saqa.org.za/viewQualification.php?id=100992",
+                                               "registration_status":  "Registered-data under construction",
+                                               "registration_start_date":  "2024-07-01",
+                                               "registration_end_date":  "2027-06-30",
+                                               "last_enrolment_date":  "2027-06-30",
+                                               "last_achievement_date":  "2029-06-30"
+                                           },
+                         "programme":  {
+                                           "name":  "Diploma in Commercial Photography",
+                                           "academic_year":  2027,
+                                           "source_url":  "https://www.tut.ac.za/arts-and-design/commercial-photography/",
+                                           "requirements":  {
+
+                                                            }
+                                       },
+                         "relevance":  "related"
+                     }
+                 ]
+}
