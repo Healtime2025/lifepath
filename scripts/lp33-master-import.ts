@@ -1,4 +1,5 @@
-﻿import { loadEnvConfig } from "@next/env";
+import { Pool } from "@neondatabase/serverless";
+import { loadEnvConfig } from "@next/env";
 loadEnvConfig(process.cwd());
 
 import fs from "node:fs";
@@ -81,6 +82,14 @@ function normaliseBundle(raw:any, sourceFile:string) {
       `${p.career_slug}: programme.source_url`
     );
 
+    const relevance = p.relevance ?? "primary";
+
+    if (!["primary", "related"].includes(relevance)) {
+      throw new Error(
+        `${p.career_slug}: invalid relevance: ${relevance}`
+      );
+    }
+
     const q = p.qualification;
 
     for (const key of [
@@ -98,6 +107,7 @@ function normaliseBundle(raw:any, sourceFile:string) {
     return {
       source_file: sourceFile,
       career_slug: p.career_slug,
+      relevance,
 
       qualification: {
         title: q.title,
@@ -164,14 +174,16 @@ function normaliseBundle(raw:any, sourceFile:string) {
 }
 
 async function main() {
+  let transactionPool: Pool | null = null;
+  let tx: any = null;
   const sql = db();
 
   console.log("");
   console.log("LP-3.3 MASTER BULK IMPORT");
   console.log(
     APPLY
-      ? "MODE: APPLY — NEON MAY CHANGE"
-      : "MODE: DRY RUN — NEON WILL NOT CHANGE"
+      ? "MODE: APPLY ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â NEON MAY CHANGE"
+      : "MODE: DRY RUN ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â NEON WILL NOT CHANGE"
   );
 
   // --------------------------------------------------------
@@ -362,7 +374,7 @@ async function main() {
   if (!APPLY) {
     console.log("");
     console.log(
-      "🔥 DRY RUN PASSED — NO NEON DATA CHANGED"
+      "ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â¥ DRY RUN PASSED ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â NO NEON DATA CHANGED"
     );
     console.log(
       "When the full verified catalogue is ready:"
@@ -377,7 +389,40 @@ async function main() {
   // Transactional import.
   // --------------------------------------------------------
 
-  await sql`BEGIN`;
+  const databaseUrl = process.env.DATABASE_URL;
+
+    if (!databaseUrl) {
+      throw new Error("DATABASE_URL is not configured");
+    }
+
+    transactionPool = new Pool({
+      connectionString: databaseUrl,
+      max: 1
+    });
+
+    tx = await transactionPool.connect();
+
+    await tx.query("BEGIN");
+
+    const txSql = async (
+      strings: TemplateStringsArray,
+      ...values: any[]
+    ) => {
+      let text = "";
+
+      for (let i = 0; i < strings.length; i++) {
+        text += strings[i];
+
+        if (i < values.length) {
+          text += `$${i + 1}`;
+        }
+      }
+
+      const result = await tx.query(text, values);
+
+      return result.rows as any[];
+    };
+
 
   try {
 
@@ -387,7 +432,7 @@ async function main() {
         careerMap.get(r.career_slug);
 
       // Qualification UPSERT
-      const qRows = await sql`
+      const qRows = await txSql`
         INSERT INTO qualifications (
           title,
           qualification_type,
@@ -447,8 +492,8 @@ async function main() {
       const qualificationId =
         qRows[0].id;
 
-      // Career ↔ Qualification
-      await sql`
+      // Career ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â Qualification
+      await txSql`
         INSERT INTO career_qualifications (
           career_id,
           qualification_id,
@@ -457,13 +502,13 @@ async function main() {
         VALUES (
           ${career.id},
           ${qualificationId},
-          'primary'
+          ${r.relevance}
         )
         ON CONFLICT DO NOTHING
       `;
 
       // Avoid duplicate programme.
-      const existingProgramme = await sql`
+      const existingProgramme = await txSql`
         SELECT id
         FROM programmes
         WHERE
@@ -475,7 +520,7 @@ async function main() {
       `;
 
       if (!existingProgramme.length) {
-        await sql`
+        await txSql`
           INSERT INTO programmes (
             qualification_id,
             institution_id,
@@ -512,9 +557,27 @@ async function main() {
       }
     }
 
-    await sql`COMMIT`;
+    await tx.query("COMMIT");
+    tx.release();
+    await transactionPool.end();
   } catch (error) {
-    await sql`ROLLBACK`;
+    if (tx) {
+      try {
+        await tx.query("ROLLBACK");
+      } catch {}
+    }
+
+    if (tx) {
+      try {
+        tx.release();
+      } catch {}
+    }
+
+    if (transactionPool) {
+      try {
+        await transactionPool.end();
+      } catch {}
+    }
     throw error;
   }
 
@@ -577,7 +640,7 @@ async function main() {
 
   console.log("");
   console.log(
-    "🔥 LP-3.3 TRANSACTIONAL IMPORT COMPLETE"
+    "ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â¥ LP-3.3 TRANSACTIONAL IMPORT COMPLETE"
   );
 }
 
@@ -587,4 +650,3 @@ main().catch(error => {
   console.error(error);
   process.exit(1);
 });
-
