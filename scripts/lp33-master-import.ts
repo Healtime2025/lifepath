@@ -1,4 +1,4 @@
-import { Pool } from "@neondatabase/serverless";
+﻿import { Pool } from "@neondatabase/serverless";
 import { loadEnvConfig } from "@next/env";
 loadEnvConfig(process.cwd());
 
@@ -182,8 +182,8 @@ async function main() {
   console.log("LP-3.3 MASTER BULK IMPORT");
   console.log(
     APPLY
-      ? "MODE: APPLY ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â NEON MAY CHANGE"
-      : "MODE: DRY RUN ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â NEON WILL NOT CHANGE"
+      ? "MODE: APPLY ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â NEON MAY CHANGE"
+      : "MODE: DRY RUN ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â NEON WILL NOT CHANGE"
   );
 
   // --------------------------------------------------------
@@ -374,7 +374,7 @@ async function main() {
   if (!APPLY) {
     console.log("");
     console.log(
-      "ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â¥ DRY RUN PASSED ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â NO NEON DATA CHANGED"
+      "ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â¥ DRY RUN PASSED ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â NO NEON DATA CHANGED"
     );
     console.log(
       "When the full verified catalogue is ready:"
@@ -465,7 +465,7 @@ async function main() {
           ${q.source_url},
           true
         )
-        ON CONFLICT (saqa_id)
+        ON CONFLICT (title, qualification_type, saqa_id)
         DO UPDATE SET
           title=EXCLUDED.title,
           qualification_type=
@@ -492,7 +492,7 @@ async function main() {
       const qualificationId =
         qRows[0].id;
 
-      // Career ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â Qualification
+      // Career ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Qualification
       await txSql`
         INSERT INTO career_qualifications (
           career_id,
@@ -640,7 +640,7 @@ async function main() {
 
   console.log("");
   console.log(
-    "ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â¥ LP-3.3 TRANSACTIONAL IMPORT COMPLETE"
+    "ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â¥ LP-3.3 TRANSACTIONAL IMPORT COMPLETE"
   );
 }
 
@@ -650,3 +650,4 @@ main().catch(error => {
   console.error(error);
   process.exit(1);
 });
+
