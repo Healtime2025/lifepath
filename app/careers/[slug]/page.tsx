@@ -834,6 +834,13 @@ export default async function Page({
 
           <Link
             className="btn btn-ghost"
+            href="/applications"
+          >
+            Track an application
+          </Link>
+
+          <Link
+            className="btn btn-ghost"
             href="/careers"
           >
             Explore other careers
