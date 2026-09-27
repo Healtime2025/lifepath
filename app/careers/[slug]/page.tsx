@@ -1,4 +1,4 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
 import { db } from '@/lib/db';
 import { notFound } from 'next/navigation';
 import { PathwayTags } from '@/components/PathwayTags';
@@ -357,7 +357,7 @@ export default async function Page({
     <div className="container section">
 
       <Link href="/careers" className="muted">
-        ← All careers
+        ← Explore careers
       </Link>
 
       <div
@@ -370,6 +370,17 @@ export default async function Page({
           <h1 style={{marginTop:10}}>
             {c.title}
           </h1>
+
+          <div
+            style={{
+              marginTop:12,
+              fontSize:14,
+              fontWeight:800,
+              color:'var(--brand)'
+            }}
+          >
+            How do I become a {c.title}?
+          </div>
 
           <p
             className="muted"
@@ -399,7 +410,7 @@ export default async function Page({
       <div className="grid grid-2">
 
         <div className="card">
-          <h3>What you would do</h3>
+          <div className="eyebrow">Step 1 · Understand the career</div><h2 style={{marginTop:6}}>What would I actually do?</h2>
 
           <p
             className="muted"
@@ -408,7 +419,14 @@ export default async function Page({
             {c.what_you_do}
           </p>
 
-          <h3 style={{marginTop:22}}>
+          <div
+            className="eyebrow"
+            style={{marginTop:24}}
+          >
+            Step 2 · See the possible routes
+          </div>
+
+          <h3 style={{marginTop:6}}>
             Routes into this career
           </h3>
 
@@ -433,7 +451,7 @@ export default async function Page({
 
         <div className="card">
 
-          <h3>School subject guidance</h3>
+          <div className="eyebrow">Step 3 · Check your school position</div><h2 style={{marginTop:6}}>Subjects that may matter</h2>
 
           {Object.keys(c.subject_guidance||{}).length
             ? (
@@ -498,18 +516,20 @@ export default async function Page({
           <div className="section-head">
             <div>
               <div className="eyebrow">
-                Verified pathway
+                Step 4 · Verified pathway
               </div>
 
               <h2>
-                Programmes connected to this career
+                How you can study towards this career
               </h2>
 
               <p className="muted">
-                These programme records are connected to
-                this career through a verified qualification
-                record. Always confirm the latest information
-                on the official programme page before applying.
+                LifePath has connected these programmes to this
+                career through verified qualification and
+                institution records. Use them to understand your
+                route, then confirm the latest entry requirements
+                and application information on the official
+                programme page before applying.
               </p>
             </div>
           </div>
@@ -544,6 +564,20 @@ export default async function Page({
                   <h3 style={{marginTop:14}}>
                     {p.qualification_title}
                   </h3>
+
+                  <div
+                    className="muted"
+                    style={{
+                      fontSize:12,
+                      fontWeight:700,
+                      marginTop:-4,
+                      marginBottom:8
+                    }}
+                  >
+                    {p.relevance==='primary'
+                      ? 'Primary pathway for this career'
+                      : 'Related pathway worth exploring'}
+                  </div>
 
                   <p
                     className="muted"
@@ -684,17 +718,22 @@ export default async function Page({
 
           <div className="section-head">
             <div>
+              <div className="eyebrow">
+                Step 4 · Research the route
+              </div>
+
               <h2>
-                Verified institutions to research
+                Exact programme still being connected
               </h2>
 
               <p className="muted">
-                LifePath has not yet connected a verified
-                programme record to this career. These
-                institutions are verified, but this does
-                not mean they offer this exact programme.
-                Confirm the programme on the institution's
-                official website.
+                LifePath has not yet connected an exact verified
+                programme record to this career. The institutions
+                below are verified places to research where the
+                career pathways point to university or TVET study,
+                but their appearance here does not mean they offer
+                this exact programme. Confirm the qualification
+                directly with the institution.
               </p>
             </div>
           </div>
@@ -739,8 +778,69 @@ export default async function Page({
         </div>
       )}
 
+      <div
+        className="card"
+        style={{
+          marginTop:28,
+          padding:24
+        }}
+      >
+        <div className="eyebrow">
+          Step 5 · Choose your next action
+        </div>
+
+        <h2 style={{marginTop:6}}>
+          Keep moving towards {c.title}
+        </h2>
+
+        <p
+          className="muted"
+          style={{
+            maxWidth:760,
+            lineHeight:1.65
+          }}
+        >
+          You do not need to make a final career decision today.
+          Use LifePath to compare this career with other
+          possibilities, strengthen relevant subjects and keep
+          checking verified routes as you move closer to applying.
+        </p>
+
+        <div
+          style={{
+            display:'flex',
+            gap:10,
+            flexWrap:'wrap',
+            marginTop:16
+          }}
+        >
+          {u && (
+            <SaveCareerButton careerId={c.id}/>
+          )}
+
+          <Link
+            className="btn btn-primary"
+            href="/subject-planner"
+          >
+            Check my subjects →
+          </Link>
+
+          <Link
+            className="btn btn-ghost"
+            href="/results"
+          >
+            Compare my matches
+          </Link>
+
+          <Link
+            className="btn btn-ghost"
+            href="/careers"
+          >
+            Explore other careers
+          </Link>
+        </div>
+      </div>
+
     </div>
   );
 }
-
-
