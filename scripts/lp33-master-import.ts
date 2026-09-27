@@ -521,40 +521,39 @@ async function main() {
 
       if (!existingProgramme.length) {
         await txSql`
-          await txSql`
-            INSERT INTO programmes (
-              institution_id,
-              qualification_id,
-              name,
-              faculty,
-              campus,
-              application_url,
-              programme_url,
-              requirements,
-              academic_year,
-              verified_at,
-              source_url,
-              active
-            )
-            VALUES (
-              ${r.institution.id},
-              ${qualificationId},
-              ${r.programme.name},
-              ${r.programme.faculty ?? null},
-              ${r.programme.campus ?? null},
-              ${r.programme.application_url ?? null},
-              ${r.programme.source_url},
-              ${
-                r.requirements
-                  ? JSON.stringify(r.requirements)
-                  : "{}"
-              }::jsonb,
-              ${r.programme.academic_year},
-              NOW(),
-              ${r.programme.source_url},
-              true
-            )
-          `;
+          INSERT INTO programmes (
+            qualification_id,
+            institution_id,
+            name,
+            academic_year,
+            faculty,
+            campus,
+            requirements,
+            source_url,
+            application_url,
+            programme_url,
+            verified_at,
+            active
+          )
+          VALUES (
+            ${qualificationId},
+            ${r.institution.id},
+            ${r.programme.name},
+            ${r.programme.academic_year},
+            ${r.programme.faculty ?? null},
+            ${r.programme.campus ?? null},
+            ${
+              r.requirements
+                ? JSON.stringify(r.requirements)
+                : "{}"
+            }::jsonb,
+            ${r.programme.source_url},
+            ${r.programme.application_url ?? null},
+            ${r.programme.source_url},
+            NOW(),
+            true
+          )
+        `;
       }
     }
 
