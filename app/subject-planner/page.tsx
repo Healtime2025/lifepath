@@ -148,7 +148,7 @@ export default async function Page(){
 
           q.title AS qualification_title,
           q.qualification_type,
-          q.nq_level,
+          q.nqf_level,
           q.saqa_id,
 
           p.id AS programme_id,
