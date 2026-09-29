@@ -288,6 +288,7 @@ export default async function Page({
 
       cq.relevance,
 
+      i.id AS institution_id,
       i.name AS institution_name,
       i.slug AS institution_slug,
       i.institution_type,
@@ -701,6 +702,24 @@ export default async function Page({
                       >
                         Apply ↗
                       </a>
+                    )}
+
+                    {u && (
+                      <Link
+                        className="btn btn-ghost"
+                        href={{
+                          pathname:'/applications',
+                          query:{
+                            programmeId:String(p.id),
+                            institutionId:String(p.institution_id),
+                            title:p.name + ' at ' + p.institution_name,
+                            applicationType:'study',
+                            externalUrl:p.application_url || p.programme_url || ''
+                          }
+                        }}
+                      >
+                        Track this application →
+                      </Link>
                     )}
                   </div>
 

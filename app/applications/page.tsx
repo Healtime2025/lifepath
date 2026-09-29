@@ -9,7 +9,18 @@ export const metadata={
   title:'Applications'
 };
 
-export default async function Page(){
+export default async function Page({
+  searchParams
+}:{
+  searchParams:Promise<{
+    programmeId?:string;
+    institutionId?:string;
+    title?:string;
+    applicationType?:string;
+    externalUrl?:string;
+  }>
+}){
+  const sp=await searchParams;
   const u=await currentUser().catch(()=>null);
 
   if(!u) redirect('/login');
@@ -133,7 +144,16 @@ export default async function Page(){
         </div>
       )}
 
-      <ApplicationsBoard initial={rows}/>
+      <ApplicationsBoard
+        initial={rows}
+        prefill={{
+          programmeId:sp.programmeId || '',
+          institutionId:sp.institutionId || '',
+          title:sp.title || '',
+          applicationType:sp.applicationType || 'study',
+          externalUrl:sp.externalUrl || ''
+        }}
+      />
 
       <div
         className="card"
