@@ -62,26 +62,82 @@ function numericRequirement(value:any):number|null{
   return null;
 }
 
+function achievementPercent(level:any):number|null{
+  const n=Number(level);
+
+  const minimums:Record<number,number>={
+    1:0,
+    2:30,
+    3:40,
+    4:50,
+    5:60,
+    6:70,
+    7:80
+  };
+
+  return minimums[n] ?? null;
+}
+
 function exactSubjectRequirements(requirements:any){
-  if(
-    !requirements ||
-    typeof requirements!=='object' ||
-    !requirements.subjects ||
-    typeof requirements.subjects!=='object' ||
-    Array.isArray(requirements.subjects)
-  ){
+  if(!requirements || typeof requirements!=='object'){
     return [];
   }
 
-  return Object.entries(requirements.subjects)
-    .map(([subject,value])=>({
-      subject,
-      required:numericRequirement(value),
-      published:value
-    }))
+  const source=
+    requirements.subjects &&
+    typeof requirements.subjects==='object' &&
+    !Array.isArray(requirements.subjects)
+      ? requirements.subjects
+      : requirements;
+
+  const metadataKeys=new Set([
+    'aps',
+    'note',
+    'curriculum',
+    'subjects'
+  ]);
+
+  return Object.entries(source)
+    .filter(([key,value])=>{
+      if(metadataKeys.has(key)) return false;
+      if(!value || typeof value!=='object') return false;
+
+      const requirement=value as any;
+
+      return (
+        requirement.achievement_level!=null ||
+        requirement.minimum_percent!=null ||
+        requirement.subject
+      );
+    })
+    .map(([key,value])=>{
+      const requirement=value as any;
+
+      const explicitMinimum=numericRequirement(
+        requirement.minimum_percent
+      );
+
+      const levelMinimum=achievementPercent(
+        requirement.achievement_level
+      );
+
+      const required=
+        explicitMinimum!=null
+          ? explicitMinimum
+          : levelMinimum;
+
+      return {
+        subject:
+          typeof requirement.subject==='string' &&
+          requirement.subject.trim()
+            ? requirement.subject
+            : key,
+        required,
+        published:requirement
+      };
+    })
     .filter(item=>item.required!=null);
 }
-
 function publishedText(value:any){
   if(typeof value==='string' || typeof value==='number'){
     return String(value);
